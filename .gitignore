@@ -58,12 +58,17 @@ venv.bak/
 3_chromatin_loops/loops_data/loops_temp_files/
 3_chromatin_loops/loops_data/average_loops_data/
 3_chromatin_loops/loops_data/loops_clusters_data/loops_clusters_temp_data
+3_chromatin_loops/loops_data/loops_clusters_data/**.csv
+3_chromatin_loops/loops_data/loops_clusters_data/**.xlsx
+3_chromatin_loops/loops_data/loops_clusters_processed_files
+3_chromatin_loops/loops_data/loops_genes_data/
+3_chromatin_loops/loops_data/loops_intensities/
 
 #--------------------------------#
-#  Large files  - temp solution #
+#  Large indivisual files - not required #
 #--------------------------------#
+3_chromatin_loops/loops_data/loops_clusters_data/loops_clustering_post_mortem_vs_iPSC_derived_merged_all_clusters_Properties.pickle
+3_chromatin_loops/loops_data/loops_clusters_data/loops_clustering_post_mortem_vs_iPSC_derived_merged_trueLoops_Properties.pickle
+3_chromatin_loops/loops_data/loops_clusters_data/loops_clustering_post_mortem_vs_iPSC_derived_calculated_clusters_all_withLoopNotation_withCentral.pickle
 
-
-3_chromatin_loops/loops_data/**
-**tar.gz
-
+3_chromatin_loops/loops_data/loops_clusters_data/loops_clustering_post_mortem_vs_iPSC_derived_calculated_clusters_all.pickle
