@@ -1,0 +1,69 @@
+#--------------------------------#
+#  Global OS-generated files     #
+#--------------------------------#
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+#--------------------------------#
+#  Python bytecode               #
+#--------------------------------#
+**__pycache__/
+*.py[cod]
+*$py.class
+
+#--------------------------------#
+#  Virtual Environments          #
+#--------------------------------#
+**venv/
+.venv/
+ENV/*
+env.bak/
+venv.bak/
+
+#--------------------------------#
+#  Logs / Temporary Files        #
+#--------------------------------#
+*.log
+*.tmp
+*.temp
+*.out
+
+#--------------------------------#
+#  Jupyter Notebook checkpoints  #
+#--------------------------------#
+**.ipynb_checkpoints/
+
+#--------------------------------#
+#  Environment variable files    #
+#--------------------------------#
+**.env
+
+#--------------------------------#
+#  Editor / IDE configurations   #
+#--------------------------------#
+.vscode/
+.idea/
+
+#--------------------------------#
+#  Large files - not required    #
+#--------------------------------#
+
+1_general_chromatin_properties/scaling_data/
+2_tads/saved_data/
+3_chromatin_loops/saved_data/
+3_chromatin_loops/loops_data/loops_temp_files/
+3_chromatin_loops/loops_data/average_loops_data/
+3_chromatin_loops/loops_data/loops_clusters_data/loops_clusters_temp_data
+
+#--------------------------------#
+#  Large files  - temp solution #
+#--------------------------------#
+
+
+3_chromatin_loops/loops_data/**
+**tar.gz
+
