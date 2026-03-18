@@ -1,0 +1,17 @@
+Author,sample_simple,Brain region,Neurons types
+Pletenev,Pletenev,Temporal cortex,Bulk
+Zagirova,Our data,Temporal cortex,Bulk
+Rahman,Rahman,Prefrontal cortex,Bulk
+Hu,Hu,Prefrontal cortex ,Bulk
+Tian ,Tian ,"Frontal cortex, Temporal cortex",Bulk
+Heffel,Heffel,Prefrontal cortex ,Bulk
+"Tian (IN, amygdala)","Tian (IN, amygdala)",Amygdala,Inhibitory
+"Tian (IN, septum)","Tian (IN, septum)",Septum,Inhibitory
+"Tian (EN, MTG)","Tian (EN, MTG)",Temporal cortex,Excitatory
+"Tian (EN, V1C)","Tian (EN, V1C)",Occipital cortex,Excitatory
+"Tian (EN, amygdala)","Tian (EN, amygdala)",Amygdala,Excitatory
+"Tian (IN, MTG)","Tian (IN, MTG)",Temporal cortex,Inhibitory
+"Tian (IN, V1C)","Tian (IN, V1C)",Occipital cortex,Inhibitory
+"Tian (EN, piriform cortex)","Tian (EN, piriform cortex)",Piriform cortex,Excitatory
+"Tian (IN, A46)","Tian (IN, A46)",Prefrontal cortex,Inhibitory
+"Tian (EN, A46)","Tian (EN, A46)",Prefrontal cortex,Excitatory

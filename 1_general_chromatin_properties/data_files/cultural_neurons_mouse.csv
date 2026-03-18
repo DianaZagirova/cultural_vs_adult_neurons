@@ -1,0 +1,8 @@
+Author,GEO ID,Organism,Celltype,Duration of differentiation (days),Protocol label,Restriction Enzyme,Intended subtypes
+Bonev,GSE96107,Mus musculus,ESC-derived NPC,14,In situ Hi-C,DpnII,
+Bonev,GSE96107,Mus musculus,ESC-derived neurons,21,In situ Hi-C,DpnII,"mix, cortical"
+Fraser,GSE59027,Mus musculus,ESC-derived NPC,5,In situ Hi-C,HindIII,
+Fraser,GSE59027,Mus musculus,ESC-derived NPC,5,In situ Hi-C,NcoI,
+Fraser,GSE59027,Mus musculus,ESC-derived neurons,16,In situ Hi-C,HindIII,midbrain dopaminergic
+Fraser,GSE59027,Mus musculus,ESC-derived neurons,16,In situ Hi-C,NcoI,midbrain dopaminergic
+Filion,GSE157448,Mus musculus,ESC-derived NPC,10,In situ Hi-C,MboI,

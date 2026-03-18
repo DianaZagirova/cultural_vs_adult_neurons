@@ -1,0 +1,784 @@
+Author,GEO ID,Organism,Nuclei collection protocol,Hi-C protocol,Celltype,Duration of differentiation (days),Region,Link to dataset,Protocol label,Restriction Enzyme,,
+Kriukov,GSE270446,Mus musculus,"The mice were sacrificed using isoflurane and perfused with cold PBS. The cortices were isolated on ice, and caution was taken to avoid keeping the isolated cortices on ice for more than 10–15 minutes. The cortical tissues were homogenized in 500 μL of ice-cold low sucrose buffer using a Dounce homogenizer on ice. The homogenate volumes were measured, and equal amounts of low sucrose buffer with 2% formaldehyde were added to achieve a final 1% formaldehyde low sucrose buffer. The fixation times were standardized for all samples, and glycine was added to quench the crosslinking reaction. After centrifugation, the pellets were resuspended in 3 mL of low sucrose buffer with PIC and homogenized using a mechanical homogenizer. Iodixanol gradients were prepared to isolate nuclei, and the samples were centrifuged. The nuclei interphase fractions were collected, diluted, and washed before staining with NeuN-PE for sorting. The sorted immunolabeled nuclei were processed and filtered through a 35-μm cell strainer for fluorescence-activated sorting of fixed nuclei.","We performed Hi-C in neurons isolated using FACS from the cortex tissue of the aging, adult, and control mice. Hi-C was performed using the DpnII restriction enzyme, according to a previously published protocol at https://pubmed.ncbi.nlm.nih.gov/34308377/
+We performed Hi-C in neurons isolated using FACS from the cortex tissue of the aging, adult, and control mice. Hi-C was performed using the DpnII restriction enzyme, according to a previously published protocol 19. Each Hi-C library was sequenced to 150-350 million paired-end reads. All details regarding library construction protocol can be found at https://pubmed.ncbi.nlm.nih.gov/34308377/",Adult neurons,,Cortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270446,In situ Hi-C,DpnII,,
+Iurlaro,GSE234292,Mus musculus,"All deleted cell lines were generated starting from mESC lines of 129S6/SvEvTac background using the CRISPR–Cas9 protocols previously described, with modifications47. Briefly, 1 × 106 of mouse ES cells were cotransfected (Lipofectamine 3000; Thermo Fisher Scientific, L3000008) with a pC2P plasmid containing the Cas9-P2A-puromycin cassette and expressing the sgRNA targeting the gene of interest. For each transfection, 125 μl of Opti-MEM (Opti-MEM reduced serum medium; Gibco) and 7.5 μl Lipofectamine 3000 (Lipofectamine 3000; Thermo Fisher Scientific) were combined to a mix containing 125 μl Opti-MEM and 3 μl of p3000 reagent (Lipofectamine 3000; Thermo Fisher Scientific) and 1 μg of plasmid. The resulting mix was incubated for at least 15 min at room temperature and added to cells seeded in a six-well plate while still in suspension. Puromycin selection (2 μg ml−1) was carried out 1 day after transfection for 24 h. Following a 2-day recovery, resistant cells were diluted to isolate single clones (1 × 104 cells per 15 cm plate). The deriving colonies were manually picked, expanded and validated by western blot and DNA sequencing. One representative clone was then selected for each genotype. Sequence of gRNAs together with sequence of mutated alleles are reported in Supplementary Table 5 (Acf1 was targeted twice to eliminate a second alternative isoform).","Hi-C experiments were performed as previously described in two independent replicates14. In brief, 5 million cells per sample were fixed in DMEM containing 1% formaldehyde for 10 min at room temperature. After quenching the reaction with glycine (125 mM final concentration) and a 15 min incubation on ice, cells were pelleted and resuspended in 500 μl of freshly prepared ice-cold lysis buffer supplemented with protease inhibitors (10 mM Tris–HCl (pH 8.0), 10 mM NaCl, 0.2% NP-40 and 1× protease inhibitors). Nuclei were then resuspended in ice-cold 1× NEBuffer 2 containing 0.05% of SDS and incubated at 37 °C for 30 min, after which Triton X-100 was added to quench the SDS. Permeabilized nuclei were digested with 400 U of MboI restriction enzyme (NEB, R0147M) at 37 °C overnight. The 5′ overhangs were filled with the incorporation of biotin-14-dATPs (Thermo Fisher Scientific, 19524016) using DNA polymerase I large (Klenow) fragment (NEB, M0210L), and resulting blunt ends were ligated with T4 DNA Ligase (NEB, M0202T). After RNAse A and proteinase K treatment and reverse cross-linking (65 °C overnight), DNA was purified using AMPure XP beads, and 2 μg of purified DNA was sheared using Covaris S220 Focused-ultrasonicator to an average size of 300–500 bp. The biotin-labeled ligation junctions were then captured using Dynabeads MyOne Streptavidin T1 beads (Thermo Fisher Scientific, 65601) in binding buffer (5 mM Tris–HCl (pH 7.5), 0.5 mM EDTA and 1 M NaCl). Finally, end-repairing, A-tailing, Illumina adapter ligation and indexing PCR amplification (six cycles) were performed on beads using NEBNext reagents and buffers before final purification with AMPure XP beads. Resulting libraries were analyzed and quantified using Agilent Bioanalyzer and sequenced on Illumina NextSeq at 41 bp paired-end.",ESC,0,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234292,In situ Hi-C,MboI,,
+Dileep,GSE227443,Mus musculus,"We adapted the protocol for the isolation of nuclei from frozen postmortem brain tissue from Swiech et al. 2015.154 All procedures were carried out on ice or at 4°C. Briefly, postmortem brain tissue was homogenized in 2 mL Homogenization Buffer (320 mM Sucrose, 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris-HCl pH 7.8, 0.1 mM EDTA pH 8.0, 0.1% IGEPAL CA-630, 1 mM b-mercaptoethanol, 0.4 U/microliter Recombinant RNase Inhibitor (Takara, 2313A) using a Wheaton Dounce Tissue Grinder (10 strokes with the loose pestle). 3 mL of Homogenization Buffer was added (final volume 5 mL) and the homogenized tissue was incubated on ice for 5 min. Then the homogenized tissue was filtered through a 40 μm cell strainer, mixed with an equal volume of Working Solution (83% OptiPrep Density Gradient Medium (Sigma-Aldrich), 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris HCl pH 7.8, 0.1 mM EDTA pH 8.0, 1 mM β-mercaptoethanol) and loaded on top of an OptiPrep density gradient (10 mL 29% OptiPrep solution (29% OptiPrep Density Gradient Medium, 134 mM Sucrose, 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris-HCl pH 7.8, 0.1 mM EDTA pH 8.0, 1 mM β-mercaptoethanol, 0.04% IGEPAL CA-630, 0.17 U/microliter Recombinant RNase Inhibitor) on top of 5 mL 35% OptiPrep solution (35% OptiPrep Density Gradient Medium, 96 mM Sucrose, 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris-HCl pH 7.8, 0.1 mM EDTA pH 8.0, 1 mM β-mercaptoethanol, 0.03% IGEPAL CA-630, 0.12 U/microliter Recombinant RNase Inhibitor)). The nuclei were separated by ultracentrifugation using an SW32 rotor (20 min, 9000 rpm, 4°C). 3 mL of nuclei were collected from the 29%/35% interphase and washed with 15 mL ice-cold PBS containing 0.5% BSA and 2 mM EDTA. The nuclei were centrifuged at 100 g for 5 min (4 °C) and resuspended in 1 mL PBS containing 0.5% BSA and 2 mM EDTA. Then the nuclei were stained by adding two drops of NucBlue Live ReadyProbes Reagent (ThermoFisher Scientific, R37605) and passed through a 40 μm cell strainer (Falcon Cell Strainers, Sterile, Corning, 352340). Single Hoechst-positive nuclei were sorted into 96-well plates (Eppendorf twin.tec PCR Plate 96, 951020401) containing 5 μL of Buffer TCL (QIAGEN, 1031576) per well containing 1% beta-mercaptoethanol (Sigma-Aldrich, M6250), snap frozen on dry ice, and then stored at −80 °C before whole transcriptome amplification, library preparation, and sequencing.","        In situ Hi-C was performed as previously described in Rao et al., 2014. Nuclei were permeabilized. DNA was digested with 100 units of MboI, and the ends of restriction fragments were labeled using biotinylated nucleotides and ligated in a small volume. After reversal of crosslinks, ligated DNA was purified and sheared to a length of ∼400 bp, at which point ligation junctions were pulled down with streptavidin beads and prepped for Illumina sequencing. P301S Tau mice and primary neuronal culture Hi-C were performed using FANS isolated nuclei with the Dovetail Hi-C kit (SKU: 21004) Illumina libraries were sequenced in 38 bp paired-end mode.
+Library construction was performed using the custom protocol as described in Rao et al, 2014 or using the library preparation module in the Dovetail Hi-C kit (SKU: 21004)
+Illumina libraries were sequenced in 38 bp paired-end mode",Adult neurons,,Forebrain,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227443,In situ Hi-C,MboI,,
+Dileep,GSE227443,Mus musculus,"We adapted the protocol for the isolation of nuclei from frozen postmortem brain tissue from Swiech et al. 2015.154 All procedures were carried out on ice or at 4°C. Briefly, postmortem brain tissue was homogenized in 2 mL Homogenization Buffer (320 mM Sucrose, 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris-HCl pH 7.8, 0.1 mM EDTA pH 8.0, 0.1% IGEPAL CA-630, 1 mM b-mercaptoethanol, 0.4 U/microliter Recombinant RNase Inhibitor (Takara, 2313A) using a Wheaton Dounce Tissue Grinder (10 strokes with the loose pestle). 3 mL of Homogenization Buffer was added (final volume 5 mL) and the homogenized tissue was incubated on ice for 5 min. Then the homogenized tissue was filtered through a 40 μm cell strainer, mixed with an equal volume of Working Solution (83% OptiPrep Density Gradient Medium (Sigma-Aldrich), 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris HCl pH 7.8, 0.1 mM EDTA pH 8.0, 1 mM β-mercaptoethanol) and loaded on top of an OptiPrep density gradient (10 mL 29% OptiPrep solution (29% OptiPrep Density Gradient Medium, 134 mM Sucrose, 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris-HCl pH 7.8, 0.1 mM EDTA pH 8.0, 1 mM β-mercaptoethanol, 0.04% IGEPAL CA-630, 0.17 U/microliter Recombinant RNase Inhibitor) on top of 5 mL 35% OptiPrep solution (35% OptiPrep Density Gradient Medium, 96 mM Sucrose, 5 mM CaCl2, 3 mM Mg(Ac)2, 10 mM Tris-HCl pH 7.8, 0.1 mM EDTA pH 8.0, 1 mM β-mercaptoethanol, 0.03% IGEPAL CA-630, 0.12 U/microliter Recombinant RNase Inhibitor)). The nuclei were separated by ultracentrifugation using an SW32 rotor (20 min, 9000 rpm, 4°C). 3 mL of nuclei were collected from the 29%/35% interphase and washed with 15 mL ice-cold PBS containing 0.5% BSA and 2 mM EDTA. The nuclei were centrifuged at 100 g for 5 min (4 °C) and resuspended in 1 mL PBS containing 0.5% BSA and 2 mM EDTA. Then the nuclei were stained by adding two drops of NucBlue Live ReadyProbes Reagent (ThermoFisher Scientific, R37605) and passed through a 40 μm cell strainer (Falcon Cell Strainers, Sterile, Corning, 352340). Single Hoechst-positive nuclei were sorted into 96-well plates (Eppendorf twin.tec PCR Plate 96, 951020401) containing 5 μL of Buffer TCL (QIAGEN, 1031576) per well containing 1% beta-mercaptoethanol (Sigma-Aldrich, M6250), snap frozen on dry ice, and then stored at −80 °C before whole transcriptome amplification, library preparation, and sequencing.","        In situ Hi-C was performed as previously described in Rao et al., 2014. Nuclei were permeabilized. DNA was digested with 100 units of MboI, and the ends of restriction fragments were labeled using biotinylated nucleotides and ligated in a small volume. After reversal of crosslinks, ligated DNA was purified and sheared to a length of ∼400 bp, at which point ligation junctions were pulled down with streptavidin beads and prepped for Illumina sequencing. P301S Tau mice and primary neuronal culture Hi-C were performed using FANS isolated nuclei with the Dovetail Hi-C kit (SKU: 21004) Illumina libraries were sequenced in 38 bp paired-end mode.
+Library construction was performed using the custom protocol as described in Rao et al, 2014 or using the library preparation module in the Dovetail Hi-C kit (SKU: 21004)
+Illumina libraries were sequenced in 38 bp paired-end mode",Primary neurons,,Forebrain,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227443,In situ Hi-C,MboI,,
+Bonev,GSE96107,Mus musculus,"For the in vitro differentiation system, cells were dissociated using StemPro Accutase (for ESs and NPCs) or 0.05% Trypsin-EDTA (ThermoFisher, Cat.N: 25300-054) (for CNs). After fixation for 10 min at RT with freshly prepared 1% formaldehyde in PBS (ThermoFisher, Cat.N: 28908), the reaction was quenched by adding 0.2M glycine solution for 5min. Cells were permeabilized using 0.1% saponin and concentration was adjusted to 1x106 cells / mL PBS. 1 μL/mL of fxCycle far red dye (ThermoFisher, Cat.N: F10348) and 5 μL/mL RNase A (20mg/mL) were added and samples were incubated for 30min at room temperature protected from light with slight agitation. After washing once with cold 1xPBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of ∼107 cells/mL and immediately processed for FACS. FACS was performed using BD FACSAria and appropriate gates were set based on the relative levels of GFP and fxCycle as described in Figure S1 in order to isolate GFP+ / G0G1 cells.
+For in vivo purified cells, between 250 000 and 600 000 cells per replicate were FACS-purified directly after dissociation and then immediately fixed and quenched as described, as fixation first quenched mRFP signal completely (data not shown). The appropriate gates to isolate GFP+/RFP- and RFP-/GFP+ cells were set as described in Figure S7B.
+After FACS sorting, cell pellets were frozen in liquid nitrogen and stored at −80C.","HiC and library preparation was carried out using the in-situ method as described previously (Rao et. al., 2014) with minor modifications. In order to maximize library complexity, FACS-purified samples were split into batches of 1x10^6 cells and processed separately. In brief, cells were digested overnight at 37C using 500U of DpnII. After biotin filling, proximity ligation was carried out for 4 hours at 18C with 2000U T4 DNA Ligase. After reverse-crosslinking, DNA was purified using ethanol precipitation and sheared to 300-400bp fragments using Covaris S220 sonicator.
+Ligation fragments containing biotin were immobilized on MyOne Streptavidin T1 beads (ThermoFished Cat.N: 65602), end-repaired and a-tailed as described (Rao et al., 2014). NEXTflex adaptors (Bioo Scientific, Cat.N: 514101) were then ligated and fragments were PCR amplified using KAPA HiFi Library Ampification Kit (Kapa Biosystems, Cat.N: KK2620) for 6-8 cycles. DNA was then double-size selected using AMPure XP beads (Agencourt, Cat.N: A63881) in order to isolate fragments between 300 and 800bp.",ESC,0,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107,In situ Hi-C,DpnII,,
+Bonev,GSE96107,Mus musculus,"For the in vitro differentiation system, cells were dissociated using StemPro Accutase (for ESs and NPCs) or 0.05% Trypsin-EDTA (ThermoFisher, Cat.N: 25300-054) (for CNs). After fixation for 10 min at RT with freshly prepared 1% formaldehyde in PBS (ThermoFisher, Cat.N: 28908), the reaction was quenched by adding 0.2M glycine solution for 5min. Cells were permeabilized using 0.1% saponin and concentration was adjusted to 1x106 cells / mL PBS. 1 μL/mL of fxCycle far red dye (ThermoFisher, Cat.N: F10348) and 5 μL/mL RNase A (20mg/mL) were added and samples were incubated for 30min at room temperature protected from light with slight agitation. After washing once with cold 1xPBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of ∼107 cells/mL and immediately processed for FACS. FACS was performed using BD FACSAria and appropriate gates were set based on the relative levels of GFP and fxCycle as described in Figure S1 in order to isolate GFP+ / G0G1 cells.
+For in vivo purified cells, between 250 000 and 600 000 cells per replicate were FACS-purified directly after dissociation and then immediately fixed and quenched as described, as fixation first quenched mRFP signal completely (data not shown). The appropriate gates to isolate GFP+/RFP- and RFP-/GFP+ cells were set as described in Figure S7B.
+After FACS sorting, cell pellets were frozen in liquid nitrogen and stored at −80C.","HiC and library preparation was carried out using the in-situ method as described previously (Rao et. al., 2014) with minor modifications. In order to maximize library complexity, FACS-purified samples were split into batches of 1x10^6 cells and processed separately. In brief, cells were digested overnight at 37C using 500U of DpnII. After biotin filling, proximity ligation was carried out for 4 hours at 18C with 2000U T4 DNA Ligase. After reverse-crosslinking, DNA was purified using ethanol precipitation and sheared to 300-400bp fragments using Covaris S220 sonicator.
+Ligation fragments containing biotin were immobilized on MyOne Streptavidin T1 beads (ThermoFished Cat.N: 65602), end-repaired and a-tailed as described (Rao et al., 2014). NEXTflex adaptors (Bioo Scientific, Cat.N: 514101) were then ligated and fragments were PCR amplified using KAPA HiFi Library Ampification Kit (Kapa Biosystems, Cat.N: KK2620) for 6-8 cycles. DNA was then double-size selected using AMPure XP beads (Agencourt, Cat.N: A63881) in order to isolate fragments between 300 and 800bp.",ESC-derived NPC,14,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107,In situ Hi-C,DpnII,,
+Bonev,GSE96107,Mus musculus,"For the in vitro differentiation system, cells were dissociated using StemPro Accutase (for ESs and NPCs) or 0.05% Trypsin-EDTA (ThermoFisher, Cat.N: 25300-054) (for CNs). After fixation for 10 min at RT with freshly prepared 1% formaldehyde in PBS (ThermoFisher, Cat.N: 28908), the reaction was quenched by adding 0.2M glycine solution for 5min. Cells were permeabilized using 0.1% saponin and concentration was adjusted to 1x106 cells / mL PBS. 1 μL/mL of fxCycle far red dye (ThermoFisher, Cat.N: F10348) and 5 μL/mL RNase A (20mg/mL) were added and samples were incubated for 30min at room temperature protected from light with slight agitation. After washing once with cold 1xPBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of ∼107 cells/mL and immediately processed for FACS. FACS was performed using BD FACSAria and appropriate gates were set based on the relative levels of GFP and fxCycle as described in Figure S1 in order to isolate GFP+ / G0G1 cells.
+For in vivo purified cells, between 250 000 and 600 000 cells per replicate were FACS-purified directly after dissociation and then immediately fixed and quenched as described, as fixation first quenched mRFP signal completely (data not shown). The appropriate gates to isolate GFP+/RFP- and RFP-/GFP+ cells were set as described in Figure S7B.
+After FACS sorting, cell pellets were frozen in liquid nitrogen and stored at −80C.","HiC and library preparation was carried out using the in-situ method as described previously (Rao et. al., 2014) with minor modifications. In order to maximize library complexity, FACS-purified samples were split into batches of 1x10^6 cells and processed separately. In brief, cells were digested overnight at 37C using 500U of DpnII. After biotin filling, proximity ligation was carried out for 4 hours at 18C with 2000U T4 DNA Ligase. After reverse-crosslinking, DNA was purified using ethanol precipitation and sheared to 300-400bp fragments using Covaris S220 sonicator.
+Ligation fragments containing biotin were immobilized on MyOne Streptavidin T1 beads (ThermoFished Cat.N: 65602), end-repaired and a-tailed as described (Rao et al., 2014). NEXTflex adaptors (Bioo Scientific, Cat.N: 514101) were then ligated and fragments were PCR amplified using KAPA HiFi Library Ampification Kit (Kapa Biosystems, Cat.N: KK2620) for 6-8 cycles. DNA was then double-size selected using AMPure XP beads (Agencourt, Cat.N: A63881) in order to isolate fragments between 300 and 800bp.",ESC-derived neurons,21,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107,In situ Hi-C,DpnII,glutamatergic cortical pyramidal,"We found that most β-tubulin-III+ neurons derived from neural progenitors generated in DDM plus cyclopamine expressed the vesicular glutamate transporters VGLUT1 and VGLUT2 (also known as SLC17A7 and SLC17A6, respectively, Fig. 2d), markers of pyramidal neurons of the cerebral cortex (Fig. 2e), whereas only a minority of them expressed the vesicular GABA (γ-aminobutyric acid) transporter VGAT, a marker of GABAergic inhibitory neurons (Fig. 2f)"
+Bonev,GSE96107,Mus musculus,"For the in vitro differentiation system, cells were dissociated using StemPro Accutase (for ESs and NPCs) or 0.05% Trypsin-EDTA (ThermoFisher, Cat.N: 25300-054) (for CNs). After fixation for 10 min at RT with freshly prepared 1% formaldehyde in PBS (ThermoFisher, Cat.N: 28908), the reaction was quenched by adding 0.2M glycine solution for 5min. Cells were permeabilized using 0.1% saponin and concentration was adjusted to 1x106 cells / mL PBS. 1 μL/mL of fxCycle far red dye (ThermoFisher, Cat.N: F10348) and 5 μL/mL RNase A (20mg/mL) were added and samples were incubated for 30min at room temperature protected from light with slight agitation. After washing once with cold 1xPBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of ∼107 cells/mL and immediately processed for FACS. FACS was performed using BD FACSAria and appropriate gates were set based on the relative levels of GFP and fxCycle as described in Figure S1 in order to isolate GFP+ / G0G1 cells.
+For in vivo purified cells, between 250 000 and 600 000 cells per replicate were FACS-purified directly after dissociation and then immediately fixed and quenched as described, as fixation first quenched mRFP signal completely (data not shown). The appropriate gates to isolate GFP+/RFP- and RFP-/GFP+ cells were set as described in Figure S7B.
+After FACS sorting, cell pellets were frozen in liquid nitrogen and stored at −80C.","HiC and library preparation was carried out using the in-situ method as described previously (Rao et. al., 2014) with minor modifications. In order to maximize library complexity, FACS-purified samples were split into batches of 1x10^6 cells and processed separately. In brief, cells were digested overnight at 37C using 500U of DpnII. After biotin filling, proximity ligation was carried out for 4 hours at 18C with 2000U T4 DNA Ligase. After reverse-crosslinking, DNA was purified using ethanol precipitation and sheared to 300-400bp fragments using Covaris S220 sonicator.
+Ligation fragments containing biotin were immobilized on MyOne Streptavidin T1 beads (ThermoFished Cat.N: 65602), end-repaired and a-tailed as described (Rao et al., 2014). NEXTflex adaptors (Bioo Scientific, Cat.N: 514101) were then ligated and fragments were PCR amplified using KAPA HiFi Library Ampification Kit (Kapa Biosystems, Cat.N: KK2620) for 6-8 cycles. DNA was then double-size selected using AMPure XP beads (Agencourt, Cat.N: A63881) in order to isolate fragments between 300 and 800bp.",Fetal NPC,,Neocortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107,In situ Hi-C,DpnII,,
+Bonev,GSE96107,Mus musculus,"For the in vitro differentiation system, cells were dissociated using StemPro Accutase (for ESs and NPCs) or 0.05% Trypsin-EDTA (ThermoFisher, Cat.N: 25300-054) (for CNs). After fixation for 10 min at RT with freshly prepared 1% formaldehyde in PBS (ThermoFisher, Cat.N: 28908), the reaction was quenched by adding 0.2M glycine solution for 5min. Cells were permeabilized using 0.1% saponin and concentration was adjusted to 1x106 cells / mL PBS. 1 μL/mL of fxCycle far red dye (ThermoFisher, Cat.N: F10348) and 5 μL/mL RNase A (20mg/mL) were added and samples were incubated for 30min at room temperature protected from light with slight agitation. After washing once with cold 1xPBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of ∼107 cells/mL and immediately processed for FACS. FACS was performed using BD FACSAria and appropriate gates were set based on the relative levels of GFP and fxCycle as described in Figure S1 in order to isolate GFP+ / G0G1 cells.
+For in vivo purified cells, between 250 000 and 600 000 cells per replicate were FACS-purified directly after dissociation and then immediately fixed and quenched as described, as fixation first quenched mRFP signal completely (data not shown). The appropriate gates to isolate GFP+/RFP- and RFP-/GFP+ cells were set as described in Figure S7B.
+After FACS sorting, cell pellets were frozen in liquid nitrogen and stored at −80C.","HiC and library preparation was carried out using the in-situ method as described previously (Rao et. al., 2014) with minor modifications. In order to maximize library complexity, FACS-purified samples were split into batches of 1x10^6 cells and processed separately. In brief, cells were digested overnight at 37C using 500U of DpnII. After biotin filling, proximity ligation was carried out for 4 hours at 18C with 2000U T4 DNA Ligase. After reverse-crosslinking, DNA was purified using ethanol precipitation and sheared to 300-400bp fragments using Covaris S220 sonicator.
+Ligation fragments containing biotin were immobilized on MyOne Streptavidin T1 beads (ThermoFished Cat.N: 65602), end-repaired and a-tailed as described (Rao et al., 2014). NEXTflex adaptors (Bioo Scientific, Cat.N: 514101) were then ligated and fragments were PCR amplified using KAPA HiFi Library Ampification Kit (Kapa Biosystems, Cat.N: KK2620) for 6-8 cycles. DNA was then double-size selected using AMPure XP beads (Agencourt, Cat.N: A63881) in order to isolate fragments between 300 and 800bp.",Fetal neurons,,Neocortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107,In situ Hi-C,DpnII,,
+Jiang,GSE99363,Mus musculus,"        Nuclei were extracted from mouse brain tissue with 1% formaline fixation, collected by FACS, digested with MboI, biotinylation of the strand ends and in nuclei re-ligated, followed by reverse-crosslinking, DNA precipitation, sonication and Biotin pull-down. standard library preparation for Illumina sequencing","The processing of the raw 2x125bp read pair in-situ HiC FASTQ files was performed using the HiC-Pro analysis pipeline. In brief, HiC-Pro performs four major tasks: aligning short reads, filtering for valid pairs, binning, and normalizing contact matrices. HiC-Pro implements the truncation-based alignment strategy using Bowtie v2.2.318, mapping full reads end-to-end or the 5’ portion of reads preceding a GATCGATC ligation site that results from restriction enzyme digestion with MboI followed by end ligation. Invalid interactions such as same-strand, dangling-end, self-cycle, and single-end pairs are not retained. Binning was performed in 20kb non-overlapping, adjacent windows across the genome and resulting interaction matrices were obtained.",Adult neurons,,Сortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99363,In situ Hi-C,MboI,,
+Chandrasekaran,GSE168524,Mus musculus,"Cortical tissue was prepped for fluorescence activated nuclear sorting (FANS) as follows. Briefly, the dissected tissue was homogenized in a hypotonic lysis solution and fixed in 1% formaldehyde for 10 minutes at room temperature. The cross-linking reaction was quenched with 125 mM glycine. The nuclei were then purified by centrifugation at 4000xg and resuspended in a 1:1 solution of the hypotonic lysis solution and a 1.8M sucrose solution prior to re-centrifugation at 4000xg to isolate out cortical nuclei. The pellet was then resuspended in Dulbecco’s phosphate buffered saline (DPBS) containing 0.1% BSA and 1:1000 anti-NeuN antibody (clone A60, Alexa Fluor 488 conjugated; EMD Millipore Corp., MAB377X). Samples were incubated for 45 minutes while rotation and protected from light at 4C. DAPI (Invitrogen) was added immediately before sorting to label all nuclei.","Nuclei were digested with 100U MboI, and the restriction fragment ends were labeled using biotinylated nucleotides and re-ligated. After reversal of the cross-linking, ligated DNA was purified and sheared to a length of ~400bp by sonication, and the biotin-tagged ligation junctions were subsequently pulled down with streptavidin beads (Invitrogen, Dynabeads MyOne Streptavidin T1, Catalog No. 65602) and prepared into libraries.
+ChIP-seq: Nuclei were pelleted after FANS, resuspended in 300μl of micrococcal nuclease digestion buffer (10mM Tris pH 7.5, 4mM",Adult neurons,,Сortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168524,In situ Hi-C,MboI,,
+Chandrasekaran,GSE168524,Mus musculus,"Cortical tissue was prepped for fluorescence activated nuclear sorting (FANS) as follows. Briefly, the dissected tissue was homogenized in a hypotonic lysis solution and fixed in 1% formaldehyde for 10 minutes at room temperature. The cross-linking reaction was quenched with 125 mM glycine. The nuclei were then purified by centrifugation at 4000xg and resuspended in a 1:1 solution of the hypotonic lysis solution and a 1.8M sucrose solution prior to re-centrifugation at 4000xg to isolate out cortical nuclei. The pellet was then resuspended in Dulbecco’s phosphate buffered saline (DPBS) containing 0.1% BSA and 1:1000 anti-NeuN antibody (clone A60, Alexa Fluor 488 conjugated; EMD Millipore Corp., MAB377X). Samples were incubated for 45 minutes while rotation and protected from light at 4C. DAPI (Invitrogen) was added immediately before sorting to label all nuclei.","Nuclei were digested with 100U MboI, and the restriction fragment ends were labeled using biotinylated nucleotides and re-ligated. After reversal of the cross-linking, ligated DNA was purified and sheared to a length of ~400bp by sonication, and the biotin-tagged ligation junctions were subsequently pulled down with streptavidin beads (Invitrogen, Dynabeads MyOne Streptavidin T1, Catalog No. 65602) and prepared into libraries.
+ChIP-seq: Nuclei were pelleted after FANS, resuspended in 300μl of micrococcal nuclease digestion buffer (10mM Tris pH 7.5, 4mM",Adult non-neurons,,Сortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168524,In situ Hi-C,MboI,,
+Fraser,GSE59027,Mus musculus,"Cells were grown at 37°C in a 5% (v/v) CO2 incubator. Mouse embryonic stem cells ES-46C
+(Ying et al, 2003) (ESC) were grown in GMEM medium (Invitrogen, # 21710025), supplemented
+with 10% (v/v) fetal calf serum (FCS; PAA, # A15-151), 2 U/ml LIF (Millipore, # ESG1107),
+0.1 mM β-mercaptoethanol (Invitrogen, # 31350-010), 2 mM L-glutamine (Invitrogen, # 25030-
+024), 1 mM sodium pyruvate (Invitrogen, # 11360039), 1% penicillin-streptomycin (Invitrogen #
+15140122), 1% MEM Non-Essential Amino Acids (Invitrogen, # 11140035) on gelatin-coated
+(0.1% (v/v)) Nunc T25 flasks. The medium was changed every day and cells were split every
+other day. Before sample collection for Hi-C or CAGE, ESC were plated on gelatin-coated (0.1%
+(v/v)) Nunc 10 cm dishes in serum-free ESGRO Complete Clonal Grade Medium (Millipore, #
+SF001-500), containing 1U/ml LIF. Cells were grown for 48h, with a medium change at 24h.
+Mouse Epi Stem cells (EpiSC) were established from ESC-46C cells, after growth (4
+weeks) in N2B27 basal medium containing 20 ng/ml of Activin (R&D, # 338-AC-050) and 12
+ng/ml FGF2 (Peprotech, # 100-18B). The composition of the N2B27 basal medium was: ½ of
+DMEM/F12 (Invitrogen, # 21331-020), ½ Neurobasal Medium (Invitrogen, # 21103-049), 0.5x
+N2 (Invitrogen, # 17502-048), 0.5x B27 (Invitrogen, # 12587-010), 0.05 M β-mercaptoethanol
+(Invitrogen, # 31350-010) and 2 mM L-glutamine (Invitrogen, # 25030-024). EpiSC were grown
+on Nunc plates coated with FCS (PAA, # A15-151). Culture medium was changed every day and
+cells were split every other day by washing them 3 times with PBS without magnesium and
+calcium, incubated in PBS for 3 min at room temperature and then gently scraped from the plate.
+After scraping them the cells were pipetted up and down 3 times before transferring them to a
+new FCS-coated plate.
+EpiSC cells were differentiated into NPC (Day 5) or Neurons (Day 16) with midbrain
+properties (Jaeger et al, 2011). Differentiation was optimized based on a previously developed
+method (Jaeger et al, 2011) and at Day16, 99.4% cells are neurons positive for Tubulin beta-3,
+and 99.6% negative for BrdU (after 24h incorporation, see below; n=3.5x104
+). The day before
+starting the differentiation protocol (Day ‘-1’), exponentially growing EpiSC were plated on
+Nunc plates coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in 
+4
+N2B27 basal medium containing Activin and FGF2, so that they reached 70-80% confluence
+after 24h. Differentiation was started by rinsing cells twice with PBS, and culturing in N2B27
+basal medium plus 1 µM PD 0325901 (Axon, # 1408) for 2 days. Medium was replenished every
+day. On day 2, cells were washed with PBS, scraped, replated on 10 cm dishes (Nunc, # 150350)
+coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in N2B27
+basal medium for 3 days. At this stage, medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium. Samples of NPC were collected at
+this stage at day 5.
+Neurons were produced in parallel through the following steps. After 72h, the medium was
+replaced with N2B27 basal medium plus 100 ng/ml FGF8 (Peprotech, # 100-25-25) and 200
+ng/ml Shh (R&D, # 464-sh-025). Medium was replenished every day by removing ½ volume and
+adding ½ volume of freshly prepared medium.
+After 96h, cells were washed with PBS, and the medium replaced with N2B27 basal
+medium plus 10 ng/ml BDNF (R&D, # 450-02-10), 10 ng/ml GDNF (R&D, # 450-10-10) and
+200 µM L-ascorbic acid (Sigma, # A4544). Medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium until the last collection at day 16.","Samples used for generating ESC, NPC and Neurons Hi-C libraries were grown as detailed above.
+The medium was removed from the plate, replaced with fresh serum-free medium containing 1%
+formaldehyde (Sigma, # F8775), and the samples incubated 10 min at room temperature with
+gentle rocking every 2 min. Glycine (0.125M final concentration; Sigma; # G8898) was added
+and mixed by gentle rocking for 5 min to quench the formaldehyde and stop crosslinking. Plates
+were incubated 15 min on ice to stop the reaction. Cells were scraped from the surface of the
+Petri dish and the dish was washed thoroughly with media before transferring the cells to a 15 ml
+conical Falcon tube. Cells were pelleted by centrifugation with a Heraeus Multifuge X3M
+equipped with a 75003607 rotor (10 min, 2000 rpm), quick-frozen on dry ice and stored at -80˚C.
+The initial chromatin digestion, biotin labeling, blunt end ligation, protein removal, DNA
+purification, and quality control of the initial stage of the Hi-C libraries were all performed
+exactly as previously published (Lieberman-Aiden et al, 2009), using 400U per reaction of either
+NcoI or HindIII enzyme. From the 3C-like library, changes were made in order to obtain a higher
+yield of DNA for sequencing (Appendix Fig S1). The removal of biotin from the ends of
+unligated restriction fragments was performed by mixing 5 µg of Hi-C DNA, 1 µl of 10x NEB 2
+buffer, 1 µl each of 10 mM dATP and 10mM dGTP, and 5U of T4 DNA Polymerase (NEB) in a
+200 µl PCR tube (Maxymum Recovery, Axygen). Each reaction was incubated in a PCR machine
+(Bio-Rad MyCycler) at 12°C for 2h. Up to 10 separate reactions per sample were performed to
+provide enough DNA for downstream processing, as the percentage of DNA in the library that
+contains valid, biotin-labeled, Hi-C junctions is very small. The samples were then incubated for
+20 min at 75°C to heat-inactivate the enzyme, and were then transferred to 1.5 ml tubes
+(Maxymum Recovery, Axygen). The DNA was precipitated from the solution by the addition of
+10 µl 3M sodium acetate and 275 µl of cold 100% EtOH, followed by incubation overnight at -
+80°C. Samples were washed 2-3 times with 500 µl of 70% ethanol before being resuspended in 
+7
+400 µl water. The DNA was then sheared to an average size of 300-500bp using a Branson
+Sonifier with cup horn attachment (Branson S-450D Sonifier). DNA was then size-selected using
+Ampure XP beads (Agencourt XP) according to manufacturers specifications, with ratios of
+0.65x and 0.8x, and was then eluted in 60 µl of Qiagen EB buffer. All of the replicates for each
+sample were then pooled together, and the total volume was reduced to 301µl using a speed-vac
+(Eppendorf). 1 µl of each sample was used to measure DNA concentration using the Quant-iT
+PicoGreen assay (Invitrogen), where for each sample we would expect to have more than 2 µg of
+total DNA present.
+The biotin-labeled Hi-C fragments were then pulled down to facilitate DNA end repair,
+adenylation, and adaptor ligation. 60 µl of Dynabeads MyOne Streptavidin C1 beads (Invitrogen)
+were washed twice with 400 µl of Tween Wash Buffer (TWB; 5 mM Tris-HCl pH 8.0, 0.5 mM
+EDTA, 1 M NaCl, 0.05% Tween). For all washes, beads were recovered using a DynaMag
+Magnet (Invitrogen) for 1 min. After washing, the beads were then resuspended in 2x Binding
+Buffer (BB; 10 mM Tris-HCl, pH 8.0, 1 mM EDTA, 2 mM NaCl). All 300 µl of Hi-C DNA was
+added to the resuspended beads and incubated with rotation at room temperature for 15 min. The
+beads were collected, the supernatant discarded, and the Hi-C bound beads were washed with 400
+µl of 1x BB, before being transferred to a new 1.5ml tube. The beads were then resuspended in
+100 µl of 1x Ligation buffer (NEB) before being transferred into a 200 µl PCR tube.
+The ends of the Hi-C fragments were repaired using a solution prepared on ice separately
+containing 10 µl of 10x Ligation Buffer (NEB), 4 µl 10 mM dNTP mix, 5 µl (15 units) of T4
+DNA Polymerase (NEB), 5 µl of T4 Polynucleotide Kinase (NEB), 1 µl of Klenow DNA
+Polymerase (NEB), and 75 µl of water. The supernatant from the beads was removed
+immediately prior to being resuspended with the cold 100 µl end repair mix. The beads were then
+incubated at 20°C for 30 min in a thermal cycler, washed twice with 200 µl of 1x TWB and twice
+with 200 µl EB buffer. A 3’ adenylation mix was generated in a similar fashion, by preparing
+separately on ice 5 µl of 10x NEB 2, 10 µl of 1 mM dATP, 3 µl of Klenow exo-, and 32 µl of
+water. The supernatant from the beads was removed immediately prior to being resuspended with
+the 50 µl adenylation mix. The samples were incubated at 37°C for 30 min in a thermal cycler,
+and then washed twice with 200 µl of 1x TWB and twice with 200 µl EB buffer.
+The amount of Illumina PE adaptor needed to ligate to the Hi-C fragment ends was
+determined from the total DNA measured using the Quant-iT kit earlier in the protocol. For every 
+8
+1 µg of total DNA present in a given Hi-C sample, 6 pmol of the Illumina PE Adaptor was used.
+On ice, 25 µl of 2x Adaptor Ligation Buffer (Illumina) and the Illumina PE Adaptor was brought
+to a total volume of 45 µl with water. The beads were then resuspended with the adaptor mix,
+followed by the addition of 5 µl of DNA ligase (Illumina), and were mixed gently with a pipettor.
+The ligation reaction was incubated at 20°C for 15 min in a thermal cycler, the beads were
+washed twice with 200 µl of 1x TWB, twice with 200 µl of EB buffer, and finally resuspended in
+50 µl of EB buffer.
+PCRs were performed to determine the optimal number of cycles needed to generate
+enough of a Hi-C library to be sent for sequencing. Individual PCRs were composed of 0.5 µl HiC Library, 1 µl of 1.6 µM Illumina PE 1.0 primer, 1 µl of 1.6 µM Illumina PE 2.0 primer, 10 µl of
+Phusion High-Fidelity 2x Master Mix (NEB), and 7.5 µl water in 200 ml PCR tubes. The
+reactions were run as follows: 1 cycle of 5 min at 94°C, either 6, 8, 10, 12, or 14 cycles of 30s at
+94°C, 30s at 65°C, and 30s at 72°C, and a final cycle of 7 min at 72°C. DNA was then run on a
+2.5% agarose gel, where the optimal number of PCR cycles was chosen. This number varied
+from 7 to 11 cycles for all Hi-C libraries, depending on the quantity of Hi-C DNA initially used.
+Smaller numbers of PCR cycles are strongly preferred to reduce the abundance of duplicate reads
+in the data and increasing the yield of the sequencing runs.
+A number of large-scale reactions were then performed using 2.5x the reagents from the
+test PCRs using the chosen cycle number in order to generate enough Hi-C library for sequencing.
+Samples were purified using a 1.8x volume of Ampure XP beads, as per the manufacturer’s
+instructions, and eluted in 50 µl of EB buffer (Qiagen). Samples were quantified using the QuantiT assay, and visualized on a 2.5% agarose gel prior to sequencing to check the quantity and
+quality of the samples.",ESC,0,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027,In situ Hi-C,HindIII,,
+Fraser,GSE59027,Mus musculus,"Cells were grown at 37°C in a 5% (v/v) CO2 incubator. Mouse embryonic stem cells ES-46C
+(Ying et al, 2003) (ESC) were grown in GMEM medium (Invitrogen, # 21710025), supplemented
+with 10% (v/v) fetal calf serum (FCS; PAA, # A15-151), 2 U/ml LIF (Millipore, # ESG1107),
+0.1 mM β-mercaptoethanol (Invitrogen, # 31350-010), 2 mM L-glutamine (Invitrogen, # 25030-
+024), 1 mM sodium pyruvate (Invitrogen, # 11360039), 1% penicillin-streptomycin (Invitrogen #
+15140122), 1% MEM Non-Essential Amino Acids (Invitrogen, # 11140035) on gelatin-coated
+(0.1% (v/v)) Nunc T25 flasks. The medium was changed every day and cells were split every
+other day. Before sample collection for Hi-C or CAGE, ESC were plated on gelatin-coated (0.1%
+(v/v)) Nunc 10 cm dishes in serum-free ESGRO Complete Clonal Grade Medium (Millipore, #
+SF001-500), containing 1U/ml LIF. Cells were grown for 48h, with a medium change at 24h.
+Mouse Epi Stem cells (EpiSC) were established from ESC-46C cells, after growth (4
+weeks) in N2B27 basal medium containing 20 ng/ml of Activin (R&D, # 338-AC-050) and 12
+ng/ml FGF2 (Peprotech, # 100-18B). The composition of the N2B27 basal medium was: ½ of
+DMEM/F12 (Invitrogen, # 21331-020), ½ Neurobasal Medium (Invitrogen, # 21103-049), 0.5x
+N2 (Invitrogen, # 17502-048), 0.5x B27 (Invitrogen, # 12587-010), 0.05 M β-mercaptoethanol
+(Invitrogen, # 31350-010) and 2 mM L-glutamine (Invitrogen, # 25030-024). EpiSC were grown
+on Nunc plates coated with FCS (PAA, # A15-151). Culture medium was changed every day and
+cells were split every other day by washing them 3 times with PBS without magnesium and
+calcium, incubated in PBS for 3 min at room temperature and then gently scraped from the plate.
+After scraping them the cells were pipetted up and down 3 times before transferring them to a
+new FCS-coated plate.
+EpiSC cells were differentiated into NPC (Day 5) or Neurons (Day 16) with midbrain
+properties (Jaeger et al, 2011). Differentiation was optimized based on a previously developed
+method (Jaeger et al, 2011) and at Day16, 99.4% cells are neurons positive for Tubulin beta-3,
+and 99.6% negative for BrdU (after 24h incorporation, see below; n=3.5x104
+). The day before
+starting the differentiation protocol (Day ‘-1’), exponentially growing EpiSC were plated on
+Nunc plates coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in 
+4
+N2B27 basal medium containing Activin and FGF2, so that they reached 70-80% confluence
+after 24h. Differentiation was started by rinsing cells twice with PBS, and culturing in N2B27
+basal medium plus 1 µM PD 0325901 (Axon, # 1408) for 2 days. Medium was replenished every
+day. On day 2, cells were washed with PBS, scraped, replated on 10 cm dishes (Nunc, # 150350)
+coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in N2B27
+basal medium for 3 days. At this stage, medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium. Samples of NPC were collected at
+this stage at day 5.
+Neurons were produced in parallel through the following steps. After 72h, the medium was
+replaced with N2B27 basal medium plus 100 ng/ml FGF8 (Peprotech, # 100-25-25) and 200
+ng/ml Shh (R&D, # 464-sh-025). Medium was replenished every day by removing ½ volume and
+adding ½ volume of freshly prepared medium.
+After 96h, cells were washed with PBS, and the medium replaced with N2B27 basal
+medium plus 10 ng/ml BDNF (R&D, # 450-02-10), 10 ng/ml GDNF (R&D, # 450-10-10) and
+200 µM L-ascorbic acid (Sigma, # A4544). Medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium until the last collection at day 16.","Samples used for generating ESC, NPC and Neurons Hi-C libraries were grown as detailed above.
+The medium was removed from the plate, replaced with fresh serum-free medium containing 1%
+formaldehyde (Sigma, # F8775), and the samples incubated 10 min at room temperature with
+gentle rocking every 2 min. Glycine (0.125M final concentration; Sigma; # G8898) was added
+and mixed by gentle rocking for 5 min to quench the formaldehyde and stop crosslinking. Plates
+were incubated 15 min on ice to stop the reaction. Cells were scraped from the surface of the
+Petri dish and the dish was washed thoroughly with media before transferring the cells to a 15 ml
+conical Falcon tube. Cells were pelleted by centrifugation with a Heraeus Multifuge X3M
+equipped with a 75003607 rotor (10 min, 2000 rpm), quick-frozen on dry ice and stored at -80˚C.
+The initial chromatin digestion, biotin labeling, blunt end ligation, protein removal, DNA
+purification, and quality control of the initial stage of the Hi-C libraries were all performed
+exactly as previously published (Lieberman-Aiden et al, 2009), using 400U per reaction of either
+NcoI or HindIII enzyme. From the 3C-like library, changes were made in order to obtain a higher
+yield of DNA for sequencing (Appendix Fig S1). The removal of biotin from the ends of
+unligated restriction fragments was performed by mixing 5 µg of Hi-C DNA, 1 µl of 10x NEB 2
+buffer, 1 µl each of 10 mM dATP and 10mM dGTP, and 5U of T4 DNA Polymerase (NEB) in a
+200 µl PCR tube (Maxymum Recovery, Axygen). Each reaction was incubated in a PCR machine
+(Bio-Rad MyCycler) at 12°C for 2h. Up to 10 separate reactions per sample were performed to
+provide enough DNA for downstream processing, as the percentage of DNA in the library that
+contains valid, biotin-labeled, Hi-C junctions is very small. The samples were then incubated for
+20 min at 75°C to heat-inactivate the enzyme, and were then transferred to 1.5 ml tubes
+(Maxymum Recovery, Axygen). The DNA was precipitated from the solution by the addition of
+10 µl 3M sodium acetate and 275 µl of cold 100% EtOH, followed by incubation overnight at -
+80°C. Samples were washed 2-3 times with 500 µl of 70% ethanol before being resuspended in 
+7
+400 µl water. The DNA was then sheared to an average size of 300-500bp using a Branson
+Sonifier with cup horn attachment (Branson S-450D Sonifier). DNA was then size-selected using
+Ampure XP beads (Agencourt XP) according to manufacturers specifications, with ratios of
+0.65x and 0.8x, and was then eluted in 60 µl of Qiagen EB buffer. All of the replicates for each
+sample were then pooled together, and the total volume was reduced to 301µl using a speed-vac
+(Eppendorf). 1 µl of each sample was used to measure DNA concentration using the Quant-iT
+PicoGreen assay (Invitrogen), where for each sample we would expect to have more than 2 µg of
+total DNA present.
+The biotin-labeled Hi-C fragments were then pulled down to facilitate DNA end repair,
+adenylation, and adaptor ligation. 60 µl of Dynabeads MyOne Streptavidin C1 beads (Invitrogen)
+were washed twice with 400 µl of Tween Wash Buffer (TWB; 5 mM Tris-HCl pH 8.0, 0.5 mM
+EDTA, 1 M NaCl, 0.05% Tween). For all washes, beads were recovered using a DynaMag
+Magnet (Invitrogen) for 1 min. After washing, the beads were then resuspended in 2x Binding
+Buffer (BB; 10 mM Tris-HCl, pH 8.0, 1 mM EDTA, 2 mM NaCl). All 300 µl of Hi-C DNA was
+added to the resuspended beads and incubated with rotation at room temperature for 15 min. The
+beads were collected, the supernatant discarded, and the Hi-C bound beads were washed with 400
+µl of 1x BB, before being transferred to a new 1.5ml tube. The beads were then resuspended in
+100 µl of 1x Ligation buffer (NEB) before being transferred into a 200 µl PCR tube.
+The ends of the Hi-C fragments were repaired using a solution prepared on ice separately
+containing 10 µl of 10x Ligation Buffer (NEB), 4 µl 10 mM dNTP mix, 5 µl (15 units) of T4
+DNA Polymerase (NEB), 5 µl of T4 Polynucleotide Kinase (NEB), 1 µl of Klenow DNA
+Polymerase (NEB), and 75 µl of water. The supernatant from the beads was removed
+immediately prior to being resuspended with the cold 100 µl end repair mix. The beads were then
+incubated at 20°C for 30 min in a thermal cycler, washed twice with 200 µl of 1x TWB and twice
+with 200 µl EB buffer. A 3’ adenylation mix was generated in a similar fashion, by preparing
+separately on ice 5 µl of 10x NEB 2, 10 µl of 1 mM dATP, 3 µl of Klenow exo-, and 32 µl of
+water. The supernatant from the beads was removed immediately prior to being resuspended with
+the 50 µl adenylation mix. The samples were incubated at 37°C for 30 min in a thermal cycler,
+and then washed twice with 200 µl of 1x TWB and twice with 200 µl EB buffer.
+The amount of Illumina PE adaptor needed to ligate to the Hi-C fragment ends was
+determined from the total DNA measured using the Quant-iT kit earlier in the protocol. For every 
+8
+1 µg of total DNA present in a given Hi-C sample, 6 pmol of the Illumina PE Adaptor was used.
+On ice, 25 µl of 2x Adaptor Ligation Buffer (Illumina) and the Illumina PE Adaptor was brought
+to a total volume of 45 µl with water. The beads were then resuspended with the adaptor mix,
+followed by the addition of 5 µl of DNA ligase (Illumina), and were mixed gently with a pipettor.
+The ligation reaction was incubated at 20°C for 15 min in a thermal cycler, the beads were
+washed twice with 200 µl of 1x TWB, twice with 200 µl of EB buffer, and finally resuspended in
+50 µl of EB buffer.
+PCRs were performed to determine the optimal number of cycles needed to generate
+enough of a Hi-C library to be sent for sequencing. Individual PCRs were composed of 0.5 µl HiC Library, 1 µl of 1.6 µM Illumina PE 1.0 primer, 1 µl of 1.6 µM Illumina PE 2.0 primer, 10 µl of
+Phusion High-Fidelity 2x Master Mix (NEB), and 7.5 µl water in 200 ml PCR tubes. The
+reactions were run as follows: 1 cycle of 5 min at 94°C, either 6, 8, 10, 12, or 14 cycles of 30s at
+94°C, 30s at 65°C, and 30s at 72°C, and a final cycle of 7 min at 72°C. DNA was then run on a
+2.5% agarose gel, where the optimal number of PCR cycles was chosen. This number varied
+from 7 to 11 cycles for all Hi-C libraries, depending on the quantity of Hi-C DNA initially used.
+Smaller numbers of PCR cycles are strongly preferred to reduce the abundance of duplicate reads
+in the data and increasing the yield of the sequencing runs.
+A number of large-scale reactions were then performed using 2.5x the reagents from the
+test PCRs using the chosen cycle number in order to generate enough Hi-C library for sequencing.
+Samples were purified using a 1.8x volume of Ampure XP beads, as per the manufacturer’s
+instructions, and eluted in 50 µl of EB buffer (Qiagen). Samples were quantified using the QuantiT assay, and visualized on a 2.5% agarose gel prior to sequencing to check the quantity and
+quality of the samples.",ESC,0,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027,In situ Hi-C,NcoI,,
+Fraser,GSE59027,Mus musculus,"Cells were grown at 37°C in a 5% (v/v) CO2 incubator. Mouse embryonic stem cells ES-46C
+(Ying et al, 2003) (ESC) were grown in GMEM medium (Invitrogen, # 21710025), supplemented
+with 10% (v/v) fetal calf serum (FCS; PAA, # A15-151), 2 U/ml LIF (Millipore, # ESG1107),
+0.1 mM β-mercaptoethanol (Invitrogen, # 31350-010), 2 mM L-glutamine (Invitrogen, # 25030-
+024), 1 mM sodium pyruvate (Invitrogen, # 11360039), 1% penicillin-streptomycin (Invitrogen #
+15140122), 1% MEM Non-Essential Amino Acids (Invitrogen, # 11140035) on gelatin-coated
+(0.1% (v/v)) Nunc T25 flasks. The medium was changed every day and cells were split every
+other day. Before sample collection for Hi-C or CAGE, ESC were plated on gelatin-coated (0.1%
+(v/v)) Nunc 10 cm dishes in serum-free ESGRO Complete Clonal Grade Medium (Millipore, #
+SF001-500), containing 1U/ml LIF. Cells were grown for 48h, with a medium change at 24h.
+Mouse Epi Stem cells (EpiSC) were established from ESC-46C cells, after growth (4
+weeks) in N2B27 basal medium containing 20 ng/ml of Activin (R&D, # 338-AC-050) and 12
+ng/ml FGF2 (Peprotech, # 100-18B). The composition of the N2B27 basal medium was: ½ of
+DMEM/F12 (Invitrogen, # 21331-020), ½ Neurobasal Medium (Invitrogen, # 21103-049), 0.5x
+N2 (Invitrogen, # 17502-048), 0.5x B27 (Invitrogen, # 12587-010), 0.05 M β-mercaptoethanol
+(Invitrogen, # 31350-010) and 2 mM L-glutamine (Invitrogen, # 25030-024). EpiSC were grown
+on Nunc plates coated with FCS (PAA, # A15-151). Culture medium was changed every day and
+cells were split every other day by washing them 3 times with PBS without magnesium and
+calcium, incubated in PBS for 3 min at room temperature and then gently scraped from the plate.
+After scraping them the cells were pipetted up and down 3 times before transferring them to a
+new FCS-coated plate.
+EpiSC cells were differentiated into NPC (Day 5) or Neurons (Day 16) with midbrain
+properties (Jaeger et al, 2011). Differentiation was optimized based on a previously developed
+method (Jaeger et al, 2011) and at Day16, 99.4% cells are neurons positive for Tubulin beta-3,
+and 99.6% negative for BrdU (after 24h incorporation, see below; n=3.5x104
+). The day before
+starting the differentiation protocol (Day ‘-1’), exponentially growing EpiSC were plated on
+Nunc plates coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in 
+4
+N2B27 basal medium containing Activin and FGF2, so that they reached 70-80% confluence
+after 24h. Differentiation was started by rinsing cells twice with PBS, and culturing in N2B27
+basal medium plus 1 µM PD 0325901 (Axon, # 1408) for 2 days. Medium was replenished every
+day. On day 2, cells were washed with PBS, scraped, replated on 10 cm dishes (Nunc, # 150350)
+coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in N2B27
+basal medium for 3 days. At this stage, medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium. Samples of NPC were collected at
+this stage at day 5.
+Neurons were produced in parallel through the following steps. After 72h, the medium was
+replaced with N2B27 basal medium plus 100 ng/ml FGF8 (Peprotech, # 100-25-25) and 200
+ng/ml Shh (R&D, # 464-sh-025). Medium was replenished every day by removing ½ volume and
+adding ½ volume of freshly prepared medium.
+After 96h, cells were washed with PBS, and the medium replaced with N2B27 basal
+medium plus 10 ng/ml BDNF (R&D, # 450-02-10), 10 ng/ml GDNF (R&D, # 450-10-10) and
+200 µM L-ascorbic acid (Sigma, # A4544). Medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium until the last collection at day 16.","Samples used for generating ESC, NPC and Neurons Hi-C libraries were grown as detailed above.
+The medium was removed from the plate, replaced with fresh serum-free medium containing 1%
+formaldehyde (Sigma, # F8775), and the samples incubated 10 min at room temperature with
+gentle rocking every 2 min. Glycine (0.125M final concentration; Sigma; # G8898) was added
+and mixed by gentle rocking for 5 min to quench the formaldehyde and stop crosslinking. Plates
+were incubated 15 min on ice to stop the reaction. Cells were scraped from the surface of the
+Petri dish and the dish was washed thoroughly with media before transferring the cells to a 15 ml
+conical Falcon tube. Cells were pelleted by centrifugation with a Heraeus Multifuge X3M
+equipped with a 75003607 rotor (10 min, 2000 rpm), quick-frozen on dry ice and stored at -80˚C.
+The initial chromatin digestion, biotin labeling, blunt end ligation, protein removal, DNA
+purification, and quality control of the initial stage of the Hi-C libraries were all performed
+exactly as previously published (Lieberman-Aiden et al, 2009), using 400U per reaction of either
+NcoI or HindIII enzyme. From the 3C-like library, changes were made in order to obtain a higher
+yield of DNA for sequencing (Appendix Fig S1). The removal of biotin from the ends of
+unligated restriction fragments was performed by mixing 5 µg of Hi-C DNA, 1 µl of 10x NEB 2
+buffer, 1 µl each of 10 mM dATP and 10mM dGTP, and 5U of T4 DNA Polymerase (NEB) in a
+200 µl PCR tube (Maxymum Recovery, Axygen). Each reaction was incubated in a PCR machine
+(Bio-Rad MyCycler) at 12°C for 2h. Up to 10 separate reactions per sample were performed to
+provide enough DNA for downstream processing, as the percentage of DNA in the library that
+contains valid, biotin-labeled, Hi-C junctions is very small. The samples were then incubated for
+20 min at 75°C to heat-inactivate the enzyme, and were then transferred to 1.5 ml tubes
+(Maxymum Recovery, Axygen). The DNA was precipitated from the solution by the addition of
+10 µl 3M sodium acetate and 275 µl of cold 100% EtOH, followed by incubation overnight at -
+80°C. Samples were washed 2-3 times with 500 µl of 70% ethanol before being resuspended in 
+7
+400 µl water. The DNA was then sheared to an average size of 300-500bp using a Branson
+Sonifier with cup horn attachment (Branson S-450D Sonifier). DNA was then size-selected using
+Ampure XP beads (Agencourt XP) according to manufacturers specifications, with ratios of
+0.65x and 0.8x, and was then eluted in 60 µl of Qiagen EB buffer. All of the replicates for each
+sample were then pooled together, and the total volume was reduced to 301µl using a speed-vac
+(Eppendorf). 1 µl of each sample was used to measure DNA concentration using the Quant-iT
+PicoGreen assay (Invitrogen), where for each sample we would expect to have more than 2 µg of
+total DNA present.
+The biotin-labeled Hi-C fragments were then pulled down to facilitate DNA end repair,
+adenylation, and adaptor ligation. 60 µl of Dynabeads MyOne Streptavidin C1 beads (Invitrogen)
+were washed twice with 400 µl of Tween Wash Buffer (TWB; 5 mM Tris-HCl pH 8.0, 0.5 mM
+EDTA, 1 M NaCl, 0.05% Tween). For all washes, beads were recovered using a DynaMag
+Magnet (Invitrogen) for 1 min. After washing, the beads were then resuspended in 2x Binding
+Buffer (BB; 10 mM Tris-HCl, pH 8.0, 1 mM EDTA, 2 mM NaCl). All 300 µl of Hi-C DNA was
+added to the resuspended beads and incubated with rotation at room temperature for 15 min. The
+beads were collected, the supernatant discarded, and the Hi-C bound beads were washed with 400
+µl of 1x BB, before being transferred to a new 1.5ml tube. The beads were then resuspended in
+100 µl of 1x Ligation buffer (NEB) before being transferred into a 200 µl PCR tube.
+The ends of the Hi-C fragments were repaired using a solution prepared on ice separately
+containing 10 µl of 10x Ligation Buffer (NEB), 4 µl 10 mM dNTP mix, 5 µl (15 units) of T4
+DNA Polymerase (NEB), 5 µl of T4 Polynucleotide Kinase (NEB), 1 µl of Klenow DNA
+Polymerase (NEB), and 75 µl of water. The supernatant from the beads was removed
+immediately prior to being resuspended with the cold 100 µl end repair mix. The beads were then
+incubated at 20°C for 30 min in a thermal cycler, washed twice with 200 µl of 1x TWB and twice
+with 200 µl EB buffer. A 3’ adenylation mix was generated in a similar fashion, by preparing
+separately on ice 5 µl of 10x NEB 2, 10 µl of 1 mM dATP, 3 µl of Klenow exo-, and 32 µl of
+water. The supernatant from the beads was removed immediately prior to being resuspended with
+the 50 µl adenylation mix. The samples were incubated at 37°C for 30 min in a thermal cycler,
+and then washed twice with 200 µl of 1x TWB and twice with 200 µl EB buffer.
+The amount of Illumina PE adaptor needed to ligate to the Hi-C fragment ends was
+determined from the total DNA measured using the Quant-iT kit earlier in the protocol. For every 
+8
+1 µg of total DNA present in a given Hi-C sample, 6 pmol of the Illumina PE Adaptor was used.
+On ice, 25 µl of 2x Adaptor Ligation Buffer (Illumina) and the Illumina PE Adaptor was brought
+to a total volume of 45 µl with water. The beads were then resuspended with the adaptor mix,
+followed by the addition of 5 µl of DNA ligase (Illumina), and were mixed gently with a pipettor.
+The ligation reaction was incubated at 20°C for 15 min in a thermal cycler, the beads were
+washed twice with 200 µl of 1x TWB, twice with 200 µl of EB buffer, and finally resuspended in
+50 µl of EB buffer.
+PCRs were performed to determine the optimal number of cycles needed to generate
+enough of a Hi-C library to be sent for sequencing. Individual PCRs were composed of 0.5 µl HiC Library, 1 µl of 1.6 µM Illumina PE 1.0 primer, 1 µl of 1.6 µM Illumina PE 2.0 primer, 10 µl of
+Phusion High-Fidelity 2x Master Mix (NEB), and 7.5 µl water in 200 ml PCR tubes. The
+reactions were run as follows: 1 cycle of 5 min at 94°C, either 6, 8, 10, 12, or 14 cycles of 30s at
+94°C, 30s at 65°C, and 30s at 72°C, and a final cycle of 7 min at 72°C. DNA was then run on a
+2.5% agarose gel, where the optimal number of PCR cycles was chosen. This number varied
+from 7 to 11 cycles for all Hi-C libraries, depending on the quantity of Hi-C DNA initially used.
+Smaller numbers of PCR cycles are strongly preferred to reduce the abundance of duplicate reads
+in the data and increasing the yield of the sequencing runs.
+A number of large-scale reactions were then performed using 2.5x the reagents from the
+test PCRs using the chosen cycle number in order to generate enough Hi-C library for sequencing.
+Samples were purified using a 1.8x volume of Ampure XP beads, as per the manufacturer’s
+instructions, and eluted in 50 µl of EB buffer (Qiagen). Samples were quantified using the QuantiT assay, and visualized on a 2.5% agarose gel prior to sequencing to check the quantity and
+quality of the samples.",ESC-derived NPC,5,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027,In situ Hi-C,HindIII,,
+Fraser,GSE59027,Mus musculus,"Cells were grown at 37°C in a 5% (v/v) CO2 incubator. Mouse embryonic stem cells ES-46C
+(Ying et al, 2003) (ESC) were grown in GMEM medium (Invitrogen, # 21710025), supplemented
+with 10% (v/v) fetal calf serum (FCS; PAA, # A15-151), 2 U/ml LIF (Millipore, # ESG1107),
+0.1 mM β-mercaptoethanol (Invitrogen, # 31350-010), 2 mM L-glutamine (Invitrogen, # 25030-
+024), 1 mM sodium pyruvate (Invitrogen, # 11360039), 1% penicillin-streptomycin (Invitrogen #
+15140122), 1% MEM Non-Essential Amino Acids (Invitrogen, # 11140035) on gelatin-coated
+(0.1% (v/v)) Nunc T25 flasks. The medium was changed every day and cells were split every
+other day. Before sample collection for Hi-C or CAGE, ESC were plated on gelatin-coated (0.1%
+(v/v)) Nunc 10 cm dishes in serum-free ESGRO Complete Clonal Grade Medium (Millipore, #
+SF001-500), containing 1U/ml LIF. Cells were grown for 48h, with a medium change at 24h.
+Mouse Epi Stem cells (EpiSC) were established from ESC-46C cells, after growth (4
+weeks) in N2B27 basal medium containing 20 ng/ml of Activin (R&D, # 338-AC-050) and 12
+ng/ml FGF2 (Peprotech, # 100-18B). The composition of the N2B27 basal medium was: ½ of
+DMEM/F12 (Invitrogen, # 21331-020), ½ Neurobasal Medium (Invitrogen, # 21103-049), 0.5x
+N2 (Invitrogen, # 17502-048), 0.5x B27 (Invitrogen, # 12587-010), 0.05 M β-mercaptoethanol
+(Invitrogen, # 31350-010) and 2 mM L-glutamine (Invitrogen, # 25030-024). EpiSC were grown
+on Nunc plates coated with FCS (PAA, # A15-151). Culture medium was changed every day and
+cells were split every other day by washing them 3 times with PBS without magnesium and
+calcium, incubated in PBS for 3 min at room temperature and then gently scraped from the plate.
+After scraping them the cells were pipetted up and down 3 times before transferring them to a
+new FCS-coated plate.
+EpiSC cells were differentiated into NPC (Day 5) or Neurons (Day 16) with midbrain
+properties (Jaeger et al, 2011). Differentiation was optimized based on a previously developed
+method (Jaeger et al, 2011) and at Day16, 99.4% cells are neurons positive for Tubulin beta-3,
+and 99.6% negative for BrdU (after 24h incorporation, see below; n=3.5x104
+). The day before
+starting the differentiation protocol (Day ‘-1’), exponentially growing EpiSC were plated on
+Nunc plates coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in 
+4
+N2B27 basal medium containing Activin and FGF2, so that they reached 70-80% confluence
+after 24h. Differentiation was started by rinsing cells twice with PBS, and culturing in N2B27
+basal medium plus 1 µM PD 0325901 (Axon, # 1408) for 2 days. Medium was replenished every
+day. On day 2, cells were washed with PBS, scraped, replated on 10 cm dishes (Nunc, # 150350)
+coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in N2B27
+basal medium for 3 days. At this stage, medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium. Samples of NPC were collected at
+this stage at day 5.
+Neurons were produced in parallel through the following steps. After 72h, the medium was
+replaced with N2B27 basal medium plus 100 ng/ml FGF8 (Peprotech, # 100-25-25) and 200
+ng/ml Shh (R&D, # 464-sh-025). Medium was replenished every day by removing ½ volume and
+adding ½ volume of freshly prepared medium.
+After 96h, cells were washed with PBS, and the medium replaced with N2B27 basal
+medium plus 10 ng/ml BDNF (R&D, # 450-02-10), 10 ng/ml GDNF (R&D, # 450-10-10) and
+200 µM L-ascorbic acid (Sigma, # A4544). Medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium until the last collection at day 16.","Samples used for generating ESC, NPC and Neurons Hi-C libraries were grown as detailed above.
+The medium was removed from the plate, replaced with fresh serum-free medium containing 1%
+formaldehyde (Sigma, # F8775), and the samples incubated 10 min at room temperature with
+gentle rocking every 2 min. Glycine (0.125M final concentration; Sigma; # G8898) was added
+and mixed by gentle rocking for 5 min to quench the formaldehyde and stop crosslinking. Plates
+were incubated 15 min on ice to stop the reaction. Cells were scraped from the surface of the
+Petri dish and the dish was washed thoroughly with media before transferring the cells to a 15 ml
+conical Falcon tube. Cells were pelleted by centrifugation with a Heraeus Multifuge X3M
+equipped with a 75003607 rotor (10 min, 2000 rpm), quick-frozen on dry ice and stored at -80˚C.
+The initial chromatin digestion, biotin labeling, blunt end ligation, protein removal, DNA
+purification, and quality control of the initial stage of the Hi-C libraries were all performed
+exactly as previously published (Lieberman-Aiden et al, 2009), using 400U per reaction of either
+NcoI or HindIII enzyme. From the 3C-like library, changes were made in order to obtain a higher
+yield of DNA for sequencing (Appendix Fig S1). The removal of biotin from the ends of
+unligated restriction fragments was performed by mixing 5 µg of Hi-C DNA, 1 µl of 10x NEB 2
+buffer, 1 µl each of 10 mM dATP and 10mM dGTP, and 5U of T4 DNA Polymerase (NEB) in a
+200 µl PCR tube (Maxymum Recovery, Axygen). Each reaction was incubated in a PCR machine
+(Bio-Rad MyCycler) at 12°C for 2h. Up to 10 separate reactions per sample were performed to
+provide enough DNA for downstream processing, as the percentage of DNA in the library that
+contains valid, biotin-labeled, Hi-C junctions is very small. The samples were then incubated for
+20 min at 75°C to heat-inactivate the enzyme, and were then transferred to 1.5 ml tubes
+(Maxymum Recovery, Axygen). The DNA was precipitated from the solution by the addition of
+10 µl 3M sodium acetate and 275 µl of cold 100% EtOH, followed by incubation overnight at -
+80°C. Samples were washed 2-3 times with 500 µl of 70% ethanol before being resuspended in 
+7
+400 µl water. The DNA was then sheared to an average size of 300-500bp using a Branson
+Sonifier with cup horn attachment (Branson S-450D Sonifier). DNA was then size-selected using
+Ampure XP beads (Agencourt XP) according to manufacturers specifications, with ratios of
+0.65x and 0.8x, and was then eluted in 60 µl of Qiagen EB buffer. All of the replicates for each
+sample were then pooled together, and the total volume was reduced to 301µl using a speed-vac
+(Eppendorf). 1 µl of each sample was used to measure DNA concentration using the Quant-iT
+PicoGreen assay (Invitrogen), where for each sample we would expect to have more than 2 µg of
+total DNA present.
+The biotin-labeled Hi-C fragments were then pulled down to facilitate DNA end repair,
+adenylation, and adaptor ligation. 60 µl of Dynabeads MyOne Streptavidin C1 beads (Invitrogen)
+were washed twice with 400 µl of Tween Wash Buffer (TWB; 5 mM Tris-HCl pH 8.0, 0.5 mM
+EDTA, 1 M NaCl, 0.05% Tween). For all washes, beads were recovered using a DynaMag
+Magnet (Invitrogen) for 1 min. After washing, the beads were then resuspended in 2x Binding
+Buffer (BB; 10 mM Tris-HCl, pH 8.0, 1 mM EDTA, 2 mM NaCl). All 300 µl of Hi-C DNA was
+added to the resuspended beads and incubated with rotation at room temperature for 15 min. The
+beads were collected, the supernatant discarded, and the Hi-C bound beads were washed with 400
+µl of 1x BB, before being transferred to a new 1.5ml tube. The beads were then resuspended in
+100 µl of 1x Ligation buffer (NEB) before being transferred into a 200 µl PCR tube.
+The ends of the Hi-C fragments were repaired using a solution prepared on ice separately
+containing 10 µl of 10x Ligation Buffer (NEB), 4 µl 10 mM dNTP mix, 5 µl (15 units) of T4
+DNA Polymerase (NEB), 5 µl of T4 Polynucleotide Kinase (NEB), 1 µl of Klenow DNA
+Polymerase (NEB), and 75 µl of water. The supernatant from the beads was removed
+immediately prior to being resuspended with the cold 100 µl end repair mix. The beads were then
+incubated at 20°C for 30 min in a thermal cycler, washed twice with 200 µl of 1x TWB and twice
+with 200 µl EB buffer. A 3’ adenylation mix was generated in a similar fashion, by preparing
+separately on ice 5 µl of 10x NEB 2, 10 µl of 1 mM dATP, 3 µl of Klenow exo-, and 32 µl of
+water. The supernatant from the beads was removed immediately prior to being resuspended with
+the 50 µl adenylation mix. The samples were incubated at 37°C for 30 min in a thermal cycler,
+and then washed twice with 200 µl of 1x TWB and twice with 200 µl EB buffer.
+The amount of Illumina PE adaptor needed to ligate to the Hi-C fragment ends was
+determined from the total DNA measured using the Quant-iT kit earlier in the protocol. For every 
+8
+1 µg of total DNA present in a given Hi-C sample, 6 pmol of the Illumina PE Adaptor was used.
+On ice, 25 µl of 2x Adaptor Ligation Buffer (Illumina) and the Illumina PE Adaptor was brought
+to a total volume of 45 µl with water. The beads were then resuspended with the adaptor mix,
+followed by the addition of 5 µl of DNA ligase (Illumina), and were mixed gently with a pipettor.
+The ligation reaction was incubated at 20°C for 15 min in a thermal cycler, the beads were
+washed twice with 200 µl of 1x TWB, twice with 200 µl of EB buffer, and finally resuspended in
+50 µl of EB buffer.
+PCRs were performed to determine the optimal number of cycles needed to generate
+enough of a Hi-C library to be sent for sequencing. Individual PCRs were composed of 0.5 µl HiC Library, 1 µl of 1.6 µM Illumina PE 1.0 primer, 1 µl of 1.6 µM Illumina PE 2.0 primer, 10 µl of
+Phusion High-Fidelity 2x Master Mix (NEB), and 7.5 µl water in 200 ml PCR tubes. The
+reactions were run as follows: 1 cycle of 5 min at 94°C, either 6, 8, 10, 12, or 14 cycles of 30s at
+94°C, 30s at 65°C, and 30s at 72°C, and a final cycle of 7 min at 72°C. DNA was then run on a
+2.5% agarose gel, where the optimal number of PCR cycles was chosen. This number varied
+from 7 to 11 cycles for all Hi-C libraries, depending on the quantity of Hi-C DNA initially used.
+Smaller numbers of PCR cycles are strongly preferred to reduce the abundance of duplicate reads
+in the data and increasing the yield of the sequencing runs.
+A number of large-scale reactions were then performed using 2.5x the reagents from the
+test PCRs using the chosen cycle number in order to generate enough Hi-C library for sequencing.
+Samples were purified using a 1.8x volume of Ampure XP beads, as per the manufacturer’s
+instructions, and eluted in 50 µl of EB buffer (Qiagen). Samples were quantified using the QuantiT assay, and visualized on a 2.5% agarose gel prior to sequencing to check the quantity and
+quality of the samples.",ESC-derived NPC,5,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027,In situ Hi-C,NcoI,,
+Fraser,GSE59027,Mus musculus,"Cells were grown at 37°C in a 5% (v/v) CO2 incubator. Mouse embryonic stem cells ES-46C
+(Ying et al, 2003) (ESC) were grown in GMEM medium (Invitrogen, # 21710025), supplemented
+with 10% (v/v) fetal calf serum (FCS; PAA, # A15-151), 2 U/ml LIF (Millipore, # ESG1107),
+0.1 mM β-mercaptoethanol (Invitrogen, # 31350-010), 2 mM L-glutamine (Invitrogen, # 25030-
+024), 1 mM sodium pyruvate (Invitrogen, # 11360039), 1% penicillin-streptomycin (Invitrogen #
+15140122), 1% MEM Non-Essential Amino Acids (Invitrogen, # 11140035) on gelatin-coated
+(0.1% (v/v)) Nunc T25 flasks. The medium was changed every day and cells were split every
+other day. Before sample collection for Hi-C or CAGE, ESC were plated on gelatin-coated (0.1%
+(v/v)) Nunc 10 cm dishes in serum-free ESGRO Complete Clonal Grade Medium (Millipore, #
+SF001-500), containing 1U/ml LIF. Cells were grown for 48h, with a medium change at 24h.
+Mouse Epi Stem cells (EpiSC) were established from ESC-46C cells, after growth (4
+weeks) in N2B27 basal medium containing 20 ng/ml of Activin (R&D, # 338-AC-050) and 12
+ng/ml FGF2 (Peprotech, # 100-18B). The composition of the N2B27 basal medium was: ½ of
+DMEM/F12 (Invitrogen, # 21331-020), ½ Neurobasal Medium (Invitrogen, # 21103-049), 0.5x
+N2 (Invitrogen, # 17502-048), 0.5x B27 (Invitrogen, # 12587-010), 0.05 M β-mercaptoethanol
+(Invitrogen, # 31350-010) and 2 mM L-glutamine (Invitrogen, # 25030-024). EpiSC were grown
+on Nunc plates coated with FCS (PAA, # A15-151). Culture medium was changed every day and
+cells were split every other day by washing them 3 times with PBS without magnesium and
+calcium, incubated in PBS for 3 min at room temperature and then gently scraped from the plate.
+After scraping them the cells were pipetted up and down 3 times before transferring them to a
+new FCS-coated plate.
+EpiSC cells were differentiated into NPC (Day 5) or Neurons (Day 16) with midbrain
+properties (Jaeger et al, 2011). Differentiation was optimized based on a previously developed
+method (Jaeger et al, 2011) and at Day16, 99.4% cells are neurons positive for Tubulin beta-3,
+and 99.6% negative for BrdU (after 24h incorporation, see below; n=3.5x104
+). The day before
+starting the differentiation protocol (Day ‘-1’), exponentially growing EpiSC were plated on
+Nunc plates coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in 
+4
+N2B27 basal medium containing Activin and FGF2, so that they reached 70-80% confluence
+after 24h. Differentiation was started by rinsing cells twice with PBS, and culturing in N2B27
+basal medium plus 1 µM PD 0325901 (Axon, # 1408) for 2 days. Medium was replenished every
+day. On day 2, cells were washed with PBS, scraped, replated on 10 cm dishes (Nunc, # 150350)
+coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in N2B27
+basal medium for 3 days. At this stage, medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium. Samples of NPC were collected at
+this stage at day 5.
+Neurons were produced in parallel through the following steps. After 72h, the medium was
+replaced with N2B27 basal medium plus 100 ng/ml FGF8 (Peprotech, # 100-25-25) and 200
+ng/ml Shh (R&D, # 464-sh-025). Medium was replenished every day by removing ½ volume and
+adding ½ volume of freshly prepared medium.
+After 96h, cells were washed with PBS, and the medium replaced with N2B27 basal
+medium plus 10 ng/ml BDNF (R&D, # 450-02-10), 10 ng/ml GDNF (R&D, # 450-10-10) and
+200 µM L-ascorbic acid (Sigma, # A4544). Medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium until the last collection at day 16.","Samples used for generating ESC, NPC and Neurons Hi-C libraries were grown as detailed above.
+The medium was removed from the plate, replaced with fresh serum-free medium containing 1%
+formaldehyde (Sigma, # F8775), and the samples incubated 10 min at room temperature with
+gentle rocking every 2 min. Glycine (0.125M final concentration; Sigma; # G8898) was added
+and mixed by gentle rocking for 5 min to quench the formaldehyde and stop crosslinking. Plates
+were incubated 15 min on ice to stop the reaction. Cells were scraped from the surface of the
+Petri dish and the dish was washed thoroughly with media before transferring the cells to a 15 ml
+conical Falcon tube. Cells were pelleted by centrifugation with a Heraeus Multifuge X3M
+equipped with a 75003607 rotor (10 min, 2000 rpm), quick-frozen on dry ice and stored at -80˚C.
+The initial chromatin digestion, biotin labeling, blunt end ligation, protein removal, DNA
+purification, and quality control of the initial stage of the Hi-C libraries were all performed
+exactly as previously published (Lieberman-Aiden et al, 2009), using 400U per reaction of either
+NcoI or HindIII enzyme. From the 3C-like library, changes were made in order to obtain a higher
+yield of DNA for sequencing (Appendix Fig S1). The removal of biotin from the ends of
+unligated restriction fragments was performed by mixing 5 µg of Hi-C DNA, 1 µl of 10x NEB 2
+buffer, 1 µl each of 10 mM dATP and 10mM dGTP, and 5U of T4 DNA Polymerase (NEB) in a
+200 µl PCR tube (Maxymum Recovery, Axygen). Each reaction was incubated in a PCR machine
+(Bio-Rad MyCycler) at 12°C for 2h. Up to 10 separate reactions per sample were performed to
+provide enough DNA for downstream processing, as the percentage of DNA in the library that
+contains valid, biotin-labeled, Hi-C junctions is very small. The samples were then incubated for
+20 min at 75°C to heat-inactivate the enzyme, and were then transferred to 1.5 ml tubes
+(Maxymum Recovery, Axygen). The DNA was precipitated from the solution by the addition of
+10 µl 3M sodium acetate and 275 µl of cold 100% EtOH, followed by incubation overnight at -
+80°C. Samples were washed 2-3 times with 500 µl of 70% ethanol before being resuspended in 
+7
+400 µl water. The DNA was then sheared to an average size of 300-500bp using a Branson
+Sonifier with cup horn attachment (Branson S-450D Sonifier). DNA was then size-selected using
+Ampure XP beads (Agencourt XP) according to manufacturers specifications, with ratios of
+0.65x and 0.8x, and was then eluted in 60 µl of Qiagen EB buffer. All of the replicates for each
+sample were then pooled together, and the total volume was reduced to 301µl using a speed-vac
+(Eppendorf). 1 µl of each sample was used to measure DNA concentration using the Quant-iT
+PicoGreen assay (Invitrogen), where for each sample we would expect to have more than 2 µg of
+total DNA present.
+The biotin-labeled Hi-C fragments were then pulled down to facilitate DNA end repair,
+adenylation, and adaptor ligation. 60 µl of Dynabeads MyOne Streptavidin C1 beads (Invitrogen)
+were washed twice with 400 µl of Tween Wash Buffer (TWB; 5 mM Tris-HCl pH 8.0, 0.5 mM
+EDTA, 1 M NaCl, 0.05% Tween). For all washes, beads were recovered using a DynaMag
+Magnet (Invitrogen) for 1 min. After washing, the beads were then resuspended in 2x Binding
+Buffer (BB; 10 mM Tris-HCl, pH 8.0, 1 mM EDTA, 2 mM NaCl). All 300 µl of Hi-C DNA was
+added to the resuspended beads and incubated with rotation at room temperature for 15 min. The
+beads were collected, the supernatant discarded, and the Hi-C bound beads were washed with 400
+µl of 1x BB, before being transferred to a new 1.5ml tube. The beads were then resuspended in
+100 µl of 1x Ligation buffer (NEB) before being transferred into a 200 µl PCR tube.
+The ends of the Hi-C fragments were repaired using a solution prepared on ice separately
+containing 10 µl of 10x Ligation Buffer (NEB), 4 µl 10 mM dNTP mix, 5 µl (15 units) of T4
+DNA Polymerase (NEB), 5 µl of T4 Polynucleotide Kinase (NEB), 1 µl of Klenow DNA
+Polymerase (NEB), and 75 µl of water. The supernatant from the beads was removed
+immediately prior to being resuspended with the cold 100 µl end repair mix. The beads were then
+incubated at 20°C for 30 min in a thermal cycler, washed twice with 200 µl of 1x TWB and twice
+with 200 µl EB buffer. A 3’ adenylation mix was generated in a similar fashion, by preparing
+separately on ice 5 µl of 10x NEB 2, 10 µl of 1 mM dATP, 3 µl of Klenow exo-, and 32 µl of
+water. The supernatant from the beads was removed immediately prior to being resuspended with
+the 50 µl adenylation mix. The samples were incubated at 37°C for 30 min in a thermal cycler,
+and then washed twice with 200 µl of 1x TWB and twice with 200 µl EB buffer.
+The amount of Illumina PE adaptor needed to ligate to the Hi-C fragment ends was
+determined from the total DNA measured using the Quant-iT kit earlier in the protocol. For every 
+8
+1 µg of total DNA present in a given Hi-C sample, 6 pmol of the Illumina PE Adaptor was used.
+On ice, 25 µl of 2x Adaptor Ligation Buffer (Illumina) and the Illumina PE Adaptor was brought
+to a total volume of 45 µl with water. The beads were then resuspended with the adaptor mix,
+followed by the addition of 5 µl of DNA ligase (Illumina), and were mixed gently with a pipettor.
+The ligation reaction was incubated at 20°C for 15 min in a thermal cycler, the beads were
+washed twice with 200 µl of 1x TWB, twice with 200 µl of EB buffer, and finally resuspended in
+50 µl of EB buffer.
+PCRs were performed to determine the optimal number of cycles needed to generate
+enough of a Hi-C library to be sent for sequencing. Individual PCRs were composed of 0.5 µl HiC Library, 1 µl of 1.6 µM Illumina PE 1.0 primer, 1 µl of 1.6 µM Illumina PE 2.0 primer, 10 µl of
+Phusion High-Fidelity 2x Master Mix (NEB), and 7.5 µl water in 200 ml PCR tubes. The
+reactions were run as follows: 1 cycle of 5 min at 94°C, either 6, 8, 10, 12, or 14 cycles of 30s at
+94°C, 30s at 65°C, and 30s at 72°C, and a final cycle of 7 min at 72°C. DNA was then run on a
+2.5% agarose gel, where the optimal number of PCR cycles was chosen. This number varied
+from 7 to 11 cycles for all Hi-C libraries, depending on the quantity of Hi-C DNA initially used.
+Smaller numbers of PCR cycles are strongly preferred to reduce the abundance of duplicate reads
+in the data and increasing the yield of the sequencing runs.
+A number of large-scale reactions were then performed using 2.5x the reagents from the
+test PCRs using the chosen cycle number in order to generate enough Hi-C library for sequencing.
+Samples were purified using a 1.8x volume of Ampure XP beads, as per the manufacturer’s
+instructions, and eluted in 50 µl of EB buffer (Qiagen). Samples were quantified using the QuantiT assay, and visualized on a 2.5% agarose gel prior to sequencing to check the quantity and
+quality of the samples.",ESC-derived neurons,16,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027,In situ Hi-C,HindIII,midbrain dopaminergic,
+Fraser,GSE59027,Mus musculus,"Cells were grown at 37°C in a 5% (v/v) CO2 incubator. Mouse embryonic stem cells ES-46C
+(Ying et al, 2003) (ESC) were grown in GMEM medium (Invitrogen, # 21710025), supplemented
+with 10% (v/v) fetal calf serum (FCS; PAA, # A15-151), 2 U/ml LIF (Millipore, # ESG1107),
+0.1 mM β-mercaptoethanol (Invitrogen, # 31350-010), 2 mM L-glutamine (Invitrogen, # 25030-
+024), 1 mM sodium pyruvate (Invitrogen, # 11360039), 1% penicillin-streptomycin (Invitrogen #
+15140122), 1% MEM Non-Essential Amino Acids (Invitrogen, # 11140035) on gelatin-coated
+(0.1% (v/v)) Nunc T25 flasks. The medium was changed every day and cells were split every
+other day. Before sample collection for Hi-C or CAGE, ESC were plated on gelatin-coated (0.1%
+(v/v)) Nunc 10 cm dishes in serum-free ESGRO Complete Clonal Grade Medium (Millipore, #
+SF001-500), containing 1U/ml LIF. Cells were grown for 48h, with a medium change at 24h.
+Mouse Epi Stem cells (EpiSC) were established from ESC-46C cells, after growth (4
+weeks) in N2B27 basal medium containing 20 ng/ml of Activin (R&D, # 338-AC-050) and 12
+ng/ml FGF2 (Peprotech, # 100-18B). The composition of the N2B27 basal medium was: ½ of
+DMEM/F12 (Invitrogen, # 21331-020), ½ Neurobasal Medium (Invitrogen, # 21103-049), 0.5x
+N2 (Invitrogen, # 17502-048), 0.5x B27 (Invitrogen, # 12587-010), 0.05 M β-mercaptoethanol
+(Invitrogen, # 31350-010) and 2 mM L-glutamine (Invitrogen, # 25030-024). EpiSC were grown
+on Nunc plates coated with FCS (PAA, # A15-151). Culture medium was changed every day and
+cells were split every other day by washing them 3 times with PBS without magnesium and
+calcium, incubated in PBS for 3 min at room temperature and then gently scraped from the plate.
+After scraping them the cells were pipetted up and down 3 times before transferring them to a
+new FCS-coated plate.
+EpiSC cells were differentiated into NPC (Day 5) or Neurons (Day 16) with midbrain
+properties (Jaeger et al, 2011). Differentiation was optimized based on a previously developed
+method (Jaeger et al, 2011) and at Day16, 99.4% cells are neurons positive for Tubulin beta-3,
+and 99.6% negative for BrdU (after 24h incorporation, see below; n=3.5x104
+). The day before
+starting the differentiation protocol (Day ‘-1’), exponentially growing EpiSC were plated on
+Nunc plates coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in 
+4
+N2B27 basal medium containing Activin and FGF2, so that they reached 70-80% confluence
+after 24h. Differentiation was started by rinsing cells twice with PBS, and culturing in N2B27
+basal medium plus 1 µM PD 0325901 (Axon, # 1408) for 2 days. Medium was replenished every
+day. On day 2, cells were washed with PBS, scraped, replated on 10 cm dishes (Nunc, # 150350)
+coated with 15 µg/ml human plasma fibronectin (Millipore, # FC010) and cultured in N2B27
+basal medium for 3 days. At this stage, medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium. Samples of NPC were collected at
+this stage at day 5.
+Neurons were produced in parallel through the following steps. After 72h, the medium was
+replaced with N2B27 basal medium plus 100 ng/ml FGF8 (Peprotech, # 100-25-25) and 200
+ng/ml Shh (R&D, # 464-sh-025). Medium was replenished every day by removing ½ volume and
+adding ½ volume of freshly prepared medium.
+After 96h, cells were washed with PBS, and the medium replaced with N2B27 basal
+medium plus 10 ng/ml BDNF (R&D, # 450-02-10), 10 ng/ml GDNF (R&D, # 450-10-10) and
+200 µM L-ascorbic acid (Sigma, # A4544). Medium was replenished every day by removing ½
+volume and adding ½ volume of freshly prepared medium until the last collection at day 16.","Samples used for generating ESC, NPC and Neurons Hi-C libraries were grown as detailed above.
+The medium was removed from the plate, replaced with fresh serum-free medium containing 1%
+formaldehyde (Sigma, # F8775), and the samples incubated 10 min at room temperature with
+gentle rocking every 2 min. Glycine (0.125M final concentration; Sigma; # G8898) was added
+and mixed by gentle rocking for 5 min to quench the formaldehyde and stop crosslinking. Plates
+were incubated 15 min on ice to stop the reaction. Cells were scraped from the surface of the
+Petri dish and the dish was washed thoroughly with media before transferring the cells to a 15 ml
+conical Falcon tube. Cells were pelleted by centrifugation with a Heraeus Multifuge X3M
+equipped with a 75003607 rotor (10 min, 2000 rpm), quick-frozen on dry ice and stored at -80˚C.
+The initial chromatin digestion, biotin labeling, blunt end ligation, protein removal, DNA
+purification, and quality control of the initial stage of the Hi-C libraries were all performed
+exactly as previously published (Lieberman-Aiden et al, 2009), using 400U per reaction of either
+NcoI or HindIII enzyme. From the 3C-like library, changes were made in order to obtain a higher
+yield of DNA for sequencing (Appendix Fig S1). The removal of biotin from the ends of
+unligated restriction fragments was performed by mixing 5 µg of Hi-C DNA, 1 µl of 10x NEB 2
+buffer, 1 µl each of 10 mM dATP and 10mM dGTP, and 5U of T4 DNA Polymerase (NEB) in a
+200 µl PCR tube (Maxymum Recovery, Axygen). Each reaction was incubated in a PCR machine
+(Bio-Rad MyCycler) at 12°C for 2h. Up to 10 separate reactions per sample were performed to
+provide enough DNA for downstream processing, as the percentage of DNA in the library that
+contains valid, biotin-labeled, Hi-C junctions is very small. The samples were then incubated for
+20 min at 75°C to heat-inactivate the enzyme, and were then transferred to 1.5 ml tubes
+(Maxymum Recovery, Axygen). The DNA was precipitated from the solution by the addition of
+10 µl 3M sodium acetate and 275 µl of cold 100% EtOH, followed by incubation overnight at -
+80°C. Samples were washed 2-3 times with 500 µl of 70% ethanol before being resuspended in 
+7
+400 µl water. The DNA was then sheared to an average size of 300-500bp using a Branson
+Sonifier with cup horn attachment (Branson S-450D Sonifier). DNA was then size-selected using
+Ampure XP beads (Agencourt XP) according to manufacturers specifications, with ratios of
+0.65x and 0.8x, and was then eluted in 60 µl of Qiagen EB buffer. All of the replicates for each
+sample were then pooled together, and the total volume was reduced to 301µl using a speed-vac
+(Eppendorf). 1 µl of each sample was used to measure DNA concentration using the Quant-iT
+PicoGreen assay (Invitrogen), where for each sample we would expect to have more than 2 µg of
+total DNA present.
+The biotin-labeled Hi-C fragments were then pulled down to facilitate DNA end repair,
+adenylation, and adaptor ligation. 60 µl of Dynabeads MyOne Streptavidin C1 beads (Invitrogen)
+were washed twice with 400 µl of Tween Wash Buffer (TWB; 5 mM Tris-HCl pH 8.0, 0.5 mM
+EDTA, 1 M NaCl, 0.05% Tween). For all washes, beads were recovered using a DynaMag
+Magnet (Invitrogen) for 1 min. After washing, the beads were then resuspended in 2x Binding
+Buffer (BB; 10 mM Tris-HCl, pH 8.0, 1 mM EDTA, 2 mM NaCl). All 300 µl of Hi-C DNA was
+added to the resuspended beads and incubated with rotation at room temperature for 15 min. The
+beads were collected, the supernatant discarded, and the Hi-C bound beads were washed with 400
+µl of 1x BB, before being transferred to a new 1.5ml tube. The beads were then resuspended in
+100 µl of 1x Ligation buffer (NEB) before being transferred into a 200 µl PCR tube.
+The ends of the Hi-C fragments were repaired using a solution prepared on ice separately
+containing 10 µl of 10x Ligation Buffer (NEB), 4 µl 10 mM dNTP mix, 5 µl (15 units) of T4
+DNA Polymerase (NEB), 5 µl of T4 Polynucleotide Kinase (NEB), 1 µl of Klenow DNA
+Polymerase (NEB), and 75 µl of water. The supernatant from the beads was removed
+immediately prior to being resuspended with the cold 100 µl end repair mix. The beads were then
+incubated at 20°C for 30 min in a thermal cycler, washed twice with 200 µl of 1x TWB and twice
+with 200 µl EB buffer. A 3’ adenylation mix was generated in a similar fashion, by preparing
+separately on ice 5 µl of 10x NEB 2, 10 µl of 1 mM dATP, 3 µl of Klenow exo-, and 32 µl of
+water. The supernatant from the beads was removed immediately prior to being resuspended with
+the 50 µl adenylation mix. The samples were incubated at 37°C for 30 min in a thermal cycler,
+and then washed twice with 200 µl of 1x TWB and twice with 200 µl EB buffer.
+The amount of Illumina PE adaptor needed to ligate to the Hi-C fragment ends was
+determined from the total DNA measured using the Quant-iT kit earlier in the protocol. For every 
+8
+1 µg of total DNA present in a given Hi-C sample, 6 pmol of the Illumina PE Adaptor was used.
+On ice, 25 µl of 2x Adaptor Ligation Buffer (Illumina) and the Illumina PE Adaptor was brought
+to a total volume of 45 µl with water. The beads were then resuspended with the adaptor mix,
+followed by the addition of 5 µl of DNA ligase (Illumina), and were mixed gently with a pipettor.
+The ligation reaction was incubated at 20°C for 15 min in a thermal cycler, the beads were
+washed twice with 200 µl of 1x TWB, twice with 200 µl of EB buffer, and finally resuspended in
+50 µl of EB buffer.
+PCRs were performed to determine the optimal number of cycles needed to generate
+enough of a Hi-C library to be sent for sequencing. Individual PCRs were composed of 0.5 µl HiC Library, 1 µl of 1.6 µM Illumina PE 1.0 primer, 1 µl of 1.6 µM Illumina PE 2.0 primer, 10 µl of
+Phusion High-Fidelity 2x Master Mix (NEB), and 7.5 µl water in 200 ml PCR tubes. The
+reactions were run as follows: 1 cycle of 5 min at 94°C, either 6, 8, 10, 12, or 14 cycles of 30s at
+94°C, 30s at 65°C, and 30s at 72°C, and a final cycle of 7 min at 72°C. DNA was then run on a
+2.5% agarose gel, where the optimal number of PCR cycles was chosen. This number varied
+from 7 to 11 cycles for all Hi-C libraries, depending on the quantity of Hi-C DNA initially used.
+Smaller numbers of PCR cycles are strongly preferred to reduce the abundance of duplicate reads
+in the data and increasing the yield of the sequencing runs.
+A number of large-scale reactions were then performed using 2.5x the reagents from the
+test PCRs using the chosen cycle number in order to generate enough Hi-C library for sequencing.
+Samples were purified using a 1.8x volume of Ampure XP beads, as per the manufacturer’s
+instructions, and eluted in 50 µl of EB buffer (Qiagen). Samples were quantified using the QuantiT assay, and visualized on a 2.5% agarose gel prior to sequencing to check the quantity and
+quality of the samples.",ESC-derived neurons,16,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027,In situ Hi-C,NcoI,midbrain dopaminergic,
+Rocks,GSE172228,Mus musculus,"Purification of neuronal nuclei was performed as described previously27 with some modifications to include formaldehyde cross-linking. Briefly, for the oestrous cycle experiment, 6 animals per each group - proestrus, dioestrus, and males (total n = 18)—were used for Hi-C analysis. From each animal, we used bilaterally dissected ventral hippocampi and pooled brain tissue from two animals for each biological replicate (n = 3 replicates/group). Nuclei preparation and sorting were performed in three batches with each batch having equal group distribution (n = 1 for proestrus, dioestrus and males). For oestradiol replacement experiments, we used 10 animals from each group—OVX + vehicle and OVX + oestradiol (total n = 20)—pooled into 10 biological replicates (n = 5 replicates/group) which were sorted in four batches (n = 2–3 replicates/batch). Brain tissue was dissociated in lysis buffer using a douncer, then incubated in 1% formaldehyde for 10 min, followed by quenching with 200 mM glycine for 5 min. After washings and filtration through 70 μm strainer (Sigma), nuclei preparation continued as described previously27. Total nuclei were extracted using sucrose gradient centrifugation. The nuclei pellet was resuspended in DBPS and incubated, for 45 min, with the mouse monoclonal antibody against neuronal nuclear marker NeuN conjugated to AlexaFluor 488 (1:1000, MAB377X; MilliporeSigma). Before sorting, we added DAPI (1:1000) to the incubation mixture and filtered all samples through a 35-µm cell strainer. FANS was performed on a FACSAria instrument (BD Sciences) and data were collected and analysed using BD FACSDiva v8.0.1 software at the Albert Einstein College of Medicine Flow Cytometry Core Facility. In addition to a sample containing NeuN-AlexaFluor 488 and DAPI stain, three controls were used to set up the gates for sorting: DAPI only; IgG1 isotype control-AlexaFluor 488 (1:1000, Mouse monoclonal IgG1-k, FCMAB310A4; MilliporeSigma) and DAPI; and NeuN-AlexaFluor 488 only. We set up the protocol to remove debris, ensure single nuclear sorting (using DAPI), and select the NeuN+ (neuronal) and NeuN- (non-neuronal) nuclei populations (Supplementary Fig. 10a). For each biological replicate, we collected 200,000 NeuN+ (neuronal) nuclei in BSA-precoated tubes filled with 200 µL of DPBS. The purity of sorted single nuclei was confirmed using fluorescence microscopy (Supplementary Fig. 10b).","After FANS, 200,000 neuronal nuclei were pelleted in a centrifuge at 2850 × g for 10 min at 4 °C, supernatant was removed, and the pellet was frozen in liquid nitrogen and stored at −80 °C. Cross-linked, sorted nuclei were then used for the Hi-C assay which was performed using the Arima Hi-C kit (Arima Genomics), according to the manufacturer’s instructions. Briefly, the cross-linked chromatin was digested using a restriction enzyme cocktail; digested ends were filled in and labelled with biotin, followed by the ligation of spatially proximal digested ends. The proximally-ligated DNA was then purified using SPRIselect DNA purification beads (Beckman Coulter) and the first quality control checkpoint was performed to ensure that: (a) the sufficient fraction (>15%) of proximally-ligated DNA was labelled with biotin; and (b) the output of the Hi-C assay was of the expected size of 2.5–8 kb. The proximally-ligated DNA was then fragmented using a Covaris S2 instrument, targeting the DNA fragment size of 400 bp, which was confirmed using the Agilent Bioanalyzer instrument. This was followed by DNA size selection (200–600 bp) using SPRIselect beads. The size-selected biotinylated fragments were enriched with the Enrichment Beads (provided in the Arima Hi-C kit) and used for Hi-C library preparation. As recommended for low-input Hi-C protocols, the Hi-C library was prepared using the Swift Biosciences Accel 2S Plus DNA Library Kit and Indexing kit reagents, using a modified library preparation protocol in which DNA remains bound to the Enrichment Beads. Following end repair and adapter ligation and before PCR amplification, the second quality control was performed using the KAPA Library Quantification kit (Roche), to determine DNA recovery and number of PCR cycles needed for each library. The library amplification step included 6-7 PCR cycles and was performed using the KAPA Library Amplification kit (Roche). The final Hi-C library was purified using SPRIselect beads and the quality and size of the library (~500 bp) were confirmed using the Agilent Bioanalyzer. The libraries were quantified by Qubit HS DNA kit (Thermofisher Scientific) and the KAPA Library Quantification kit prior to sequencing. 150 bp, paired-end sequencing was performed on a Nova-Seq 6000 instrument at the New York Genome Centre. For the oestrus cycle experiments, a library pool containing equal amounts of all nine libraries (n = 3 for proestrus, dioestrus, and males) was prepared and loaded on two S1 lanes, yielding close to 200 million reads per library (Supplementary Data 1). For oestradiol replacement experiments, a library pool containing equal amounts of the ten libraries (n = 5/group) was prepared and loaded on one S4 lane, yielding, on average, close to 300 million reads per library (Supplementary Data 4).",Adult neurons,,Cortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172228,In situ Hi-C,Arima,,
+Filion,GSE157448,Mus musculus,"Neural Precursor Cell Differentiation: ESCs were differentiated to neural precursor cells (NPCs) as described previously (Abranches et al., 2009). ESCs were seeded at a density of 2.75x105 cells/cm2 in N2B27 (50% DMEM/F12 (Thermo Fisher Scientific, 21041025), 50% Neurobasal medium (Thermo Fisher Scientific, 12348017), 1x N2 (Thermo Fisher Scientific, 17502048), 1x B27 (Thermo Fisher Scientific, 12587001)) supplemented with 0.4 µM PD0325901 (Selleck Chemicals, S1036-5mg), 3 μM CHIR99021 (Sigma-Aldrich, SML1046-5MG) and 1,000 U/ml LIF (ORF Genetics, 01-A1140-0100). 24 hours later, cells were dissociated using Accutase (Thermo Fisher Scientific, 00-4555-56) and plated at 2.95x104 cells/cm2 in RHB-A (Takara Bio, Y40001) on 0.2% gelatin-coated T75 flasks, changing media every other day. On days 6 and 8, media was supplemented with 10 ng/ml EGF (R&D Systems, 236-EG-200) and 10 ng/ml bFGF (Thermo Fisher Scientific, 13256029) and additionally with 10µM ROCK inhibitor (Sellekchem, S1049) on day 8. On day 9, cells were dissociated using Accutase (Thermo Fisher Scientific, 00-4555-56) and SSEA1 expressing cells were removed by MACS sorting using Anti-SSEA-1 (CD15) MicroBeads (Miltenyi Biotech, 130-094-530). To completely remove cells that hadn’t undergone XCI, cells were stained with SSEA-1 eFluor 660 (Thermo Fisher Scientific, 50-8813-42) for 15 min at 4°C, washed once with 0.5% BSA in PBS and then SSEA1-/Nanog-RFP-/X-GFP- cells were FACS purified using a BD FACSAria II SORP or a BD Influx (BD Biosciences) at a maximum flow rate of 4,000 ev/s to improve survival. FACS sorted cells were seeded at 3.5x105 cells/cm2 on 0.2% gelatin-coated dishes in RHB-A, supplemented with EGF, FGF, and ROCKi. The medium was changed daily until day 12 when cells reached 100% confluency. Reprogramming of Neural Precursor Cells: Reprogramming of day 12 neural precursor cells was induced by the addition of 1 mg/ml doxycycline (Tocris, 4090/50) and 25 mg/ml L-ascorbic acid (Sigma-Aldrich, A7506-25G) to the NPC medium (RHB-A supplemented with EGF and FGF). 24 hours later, cells were dissociated using Accutase and seeded on irradiated mouse embryonic fibroblasts (iMEF) in ESC medium containing 15% FBS and supplemented with 1 mg/ml doxycycline and 25 mg/ml L-ascorbic acid. The medium was changed every other day. To isolate iPSC, SSEA1+/Nanog-RFP+/X-GFP+ cells were isolated using FACS at day 10 of reprogramming and re-plated on 0.2% gelatin-coated plates in ESC medium and kept in doxycycline free conditions for 5-6 days.","For Hi-C, cells were dissociated using Accutase (Thermo Fisher Scientific, 00-4555-56) (for NPCs), 0.05% Trypsin-EDTA (Thermo Fisher Scientific, 25300054) (for ESCs) or 0.25% Trypsin-EDTA (Thermo Fisher Scientific, 25200056) (for iPSCs) and then stained with SSEA-1 eFluor 660 (Thermo Fisher Scientific, 50-8813-42). iPSCs were additionally MACS sorted using Anti-SSEA-1 (CD15) MicroBeads (Miltenyi Biotech, 130-094-530). Cells were then fixed for 10 min at room temperature with freshly prepared 1% formaldehyde in PBS (Sigma-Aldrich, F8775-4X25ML) and the reaction then quenched by addition of 0.2M glycine (NZYTech, MB01401). 1x106 cells/ml were permeabilized using 0.1% saponin (Sigma-Aldrich, 47036-50G-F). 10 µg/ml DAPI (Thermo Fisher Scientific, D1306) and 100 µg/ml RNase A (Thermo Fisher Scientific, EN0531) were added and samples incubated for 30 min at room temperature protected from light with slight agitation. After washing once with cold PBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of 1x107 cells/ml and immediately FACS purified using a BD FACSAria II SORP or a BD Influx. After FACS sorting, dry cell pellets were snap-frozen in dry ice and stored at -80°C. For Hi-C, one million cells purified for G0G1 were used as starting materials. Cells were lysed using 250 μl cold lysis buffer (10 mM Tris-HCl pH 8, 10 mM NaCl, 0.2% IGEPAL CA-630) supplemented with 50 µl protease inhibitor cocktail (Sigma-Aldrich, P8340-1ML). Cells were digested with 100 U MboI (New England Biolabs) and incubated for 2 hours at 37°C under rotation, followed by the addition of another 100U for 2 hours and another 100U before overnight incubation. The next day a final 100U were added and incubated for 3 hours. After fill-in with biotin-14-dATP (Thermo Fisher Scientific, 19524016), ligation was performed with 10,000 U T4 DNA Ligase (New England Biolabs, M0202M) overnight at 24°C under rotation. After de-crosslinking, DNA was purified using ethanol precipitation and sonicated to an average size of 300–700 bp with a Bioruptor Pico (Diagenode; seven cycles of 20 s on and 60 s off). Ligation products containing biotin-14-dATP were pulled-down using Dynabeads MyOne Streptavidin T1 beads (Thermo Fisher Scientific, 65601) and end-repaired and A-tailed using the NEBNext End Repair/dA-Tailing Module (New England Biolabs, E6060S and E6053S). Libraries were amplified using the NEBNext High Fidelity PCR Master Mix and NEBNext Multiplex Oligos for Illumina (New England Biolabs, M0541S and E7335S) for 8 cycles and size-selected with 0.9x Agencourt AMPure XP beads. Library quality was assessed on a Bioanalyzer.",ESC-derived NPC,10,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157448,In situ Hi-C,MboI,,
+Filion,GSE157448,Mus musculus,"Neural Precursor Cell Differentiation: ESCs were differentiated to neural precursor cells (NPCs) as described previously (Abranches et al., 2009). ESCs were seeded at a density of 2.75x105 cells/cm2 in N2B27 (50% DMEM/F12 (Thermo Fisher Scientific, 21041025), 50% Neurobasal medium (Thermo Fisher Scientific, 12348017), 1x N2 (Thermo Fisher Scientific, 17502048), 1x B27 (Thermo Fisher Scientific, 12587001)) supplemented with 0.4 µM PD0325901 (Selleck Chemicals, S1036-5mg), 3 μM CHIR99021 (Sigma-Aldrich, SML1046-5MG) and 1,000 U/ml LIF (ORF Genetics, 01-A1140-0100). 24 hours later, cells were dissociated using Accutase (Thermo Fisher Scientific, 00-4555-56) and plated at 2.95x104 cells/cm2 in RHB-A (Takara Bio, Y40001) on 0.2% gelatin-coated T75 flasks, changing media every other day. On days 6 and 8, media was supplemented with 10 ng/ml EGF (R&D Systems, 236-EG-200) and 10 ng/ml bFGF (Thermo Fisher Scientific, 13256029) and additionally with 10µM ROCK inhibitor (Sellekchem, S1049) on day 8. On day 9, cells were dissociated using Accutase (Thermo Fisher Scientific, 00-4555-56) and SSEA1 expressing cells were removed by MACS sorting using Anti-SSEA-1 (CD15) MicroBeads (Miltenyi Biotech, 130-094-530). To completely remove cells that hadn’t undergone XCI, cells were stained with SSEA-1 eFluor 660 (Thermo Fisher Scientific, 50-8813-42) for 15 min at 4°C, washed once with 0.5% BSA in PBS and then SSEA1-/Nanog-RFP-/X-GFP- cells were FACS purified using a BD FACSAria II SORP or a BD Influx (BD Biosciences) at a maximum flow rate of 4,000 ev/s to improve survival. FACS sorted cells were seeded at 3.5x105 cells/cm2 on 0.2% gelatin-coated dishes in RHB-A, supplemented with EGF, FGF, and ROCKi. The medium was changed daily until day 12 when cells reached 100% confluency. Reprogramming of Neural Precursor Cells: Reprogramming of day 12 neural precursor cells was induced by the addition of 1 mg/ml doxycycline (Tocris, 4090/50) and 25 mg/ml L-ascorbic acid (Sigma-Aldrich, A7506-25G) to the NPC medium (RHB-A supplemented with EGF and FGF). 24 hours later, cells were dissociated using Accutase and seeded on irradiated mouse embryonic fibroblasts (iMEF) in ESC medium containing 15% FBS and supplemented with 1 mg/ml doxycycline and 25 mg/ml L-ascorbic acid. The medium was changed every other day. To isolate iPSC, SSEA1+/Nanog-RFP+/X-GFP+ cells were isolated using FACS at day 10 of reprogramming and re-plated on 0.2% gelatin-coated plates in ESC medium and kept in doxycycline free conditions for 5-6 days.","For Hi-C, cells were dissociated using Accutase (Thermo Fisher Scientific, 00-4555-56) (for NPCs), 0.05% Trypsin-EDTA (Thermo Fisher Scientific, 25300054) (for ESCs) or 0.25% Trypsin-EDTA (Thermo Fisher Scientific, 25200056) (for iPSCs) and then stained with SSEA-1 eFluor 660 (Thermo Fisher Scientific, 50-8813-42). iPSCs were additionally MACS sorted using Anti-SSEA-1 (CD15) MicroBeads (Miltenyi Biotech, 130-094-530). Cells were then fixed for 10 min at room temperature with freshly prepared 1% formaldehyde in PBS (Sigma-Aldrich, F8775-4X25ML) and the reaction then quenched by addition of 0.2M glycine (NZYTech, MB01401). 1x106 cells/ml were permeabilized using 0.1% saponin (Sigma-Aldrich, 47036-50G-F). 10 µg/ml DAPI (Thermo Fisher Scientific, D1306) and 100 µg/ml RNase A (Thermo Fisher Scientific, EN0531) were added and samples incubated for 30 min at room temperature protected from light with slight agitation. After washing once with cold PBS, samples were resuspended in cold 0.5% BSA in PBS at a concentration of 1x107 cells/ml and immediately FACS purified using a BD FACSAria II SORP or a BD Influx. After FACS sorting, dry cell pellets were snap-frozen in dry ice and stored at -80°C. For Hi-C, one million cells purified for G0G1 were used as starting materials. Cells were lysed using 250 μl cold lysis buffer (10 mM Tris-HCl pH 8, 10 mM NaCl, 0.2% IGEPAL CA-630) supplemented with 50 µl protease inhibitor cocktail (Sigma-Aldrich, P8340-1ML). Cells were digested with 100 U MboI (New England Biolabs) and incubated for 2 hours at 37°C under rotation, followed by the addition of another 100U for 2 hours and another 100U before overnight incubation. The next day a final 100U were added and incubated for 3 hours. After fill-in with biotin-14-dATP (Thermo Fisher Scientific, 19524016), ligation was performed with 10,000 U T4 DNA Ligase (New England Biolabs, M0202M) overnight at 24°C under rotation. After de-crosslinking, DNA was purified using ethanol precipitation and sonicated to an average size of 300–700 bp with a Bioruptor Pico (Diagenode; seven cycles of 20 s on and 60 s off). Ligation products containing biotin-14-dATP were pulled-down using Dynabeads MyOne Streptavidin T1 beads (Thermo Fisher Scientific, 65601) and end-repaired and A-tailed using the NEBNext End Repair/dA-Tailing Module (New England Biolabs, E6060S and E6053S). Libraries were amplified using the NEBNext High Fidelity PCR Master Mix and NEBNext Multiplex Oligos for Illumina (New England Biolabs, M0541S and E7335S) for 8 cycles and size-selected with 0.9x Agencourt AMPure XP beads. Library quality was assessed on a Bioanalyzer.",ESC,0,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157448,In situ Hi-C,HindIII,,
+Ikeda,GSE90033,Mus musculus,,"Cells were fixed with 1% formaldehyde for 10 min at room temperature. Glycine was added to 125 mM final concentration and incubated for 5 min at room temperature. Tubes were placed on ice for 15 min. Cells were washed in ice-cold PBS and 1–2 × 106 fixed cell pellets were used for the following steps. Cell pellets were resuspended in 3 C lysis buffer (10 mM Tris-HCl, 10 mM NaCl, and 0.2% NP-40 pH 8.0) with 1 × protease inhibitor cocktail (Roche) and incubated on ice for 20 min. After centrifugation, pellets were resuspended in 1.2 × NE Buffer 2 (New England Biolabs) with 0.3% SDS and incubated for 1 h at 37 °C with constant shaking. Triton X-100 was subsequently added to a 2% final concentration, and samples were incubated for 1 h at 37 °C. Samples were further incubated overnight at 37 °C with shaking after the addition of HindIII. After centrifugation, pellets were sequentially incubated in 1 × NE Buffer 2 with 300 U HindIII for over 8 h at 37 °C with constant shaking in “Fill-in Mix” (1 × NE Buffer 2, 15 µM each of dATP, dGTP, dTTP, and 15 µM Biotin-14-dCTP (Thermo Fisher Scientific) with 25 U Klenow (New England Biolabs)) for 45 min at 37 °C and in “Ligation Mix” (1 × T4 DNA ligase buffer (New England Biolabs) with 60 U/l of T4 DNA ligase (Thermo Fisher Scientific)) overnight at 16 °C. After Tris-HCl (pH 7.5) was added at 10 mM, samples were treated with 100 µg/ml RNase A for 30 min at 37 °C, subjected to reverse-crosslinking and proteinase K treatment overnight at 65 °C in the presence of 400 µg/ml proteinase K followed by incubation in 800 µg/ml proteinase K for an additional 2 h. DNA was extracted by ethanol precipitation after treatment with phenol/chloroform twice and with chloroform once, and resolved in 10 mM Tris-HCl (pH 7.5) (Hi-C DNA). Hi-C DNAs were checked for quantity and quality by Qubit dsDNA HS Assay Kits (Thermo Fisher Scientific) and electrophoresis, respectively.
+
+To generate next-generation sequencing libraries, Hi-C DNAs were mixed with “T4 DNA pol mix” (1 × NE Buffer 2, 1 × BSA, 100 µM dATP, 100 µM dGTP, and 2.5 U of T4 DNA polymerase (New England Biolabs)) and incubated for 2 h at 12 °C. These DNAs were purified by ethanol precipitation after treatment with phenol/chloroform twice and with chloroform once, and resolved in nuclease-free water. DNAs were next sheared (300–500 bp) using the DNA Shearing System S220 (Covaris) and subjected to size selection using AMPure XP beads (Beckman Coulter). The size-selected DNAs were subjected to biotin pull-down using Dynabeads MyOne Streptavidin C1 (Thermo Fisher Scientific). The sequencing libraries were prepared using Nextera Mate Pair Sample Prep Kit (Illumina) and KAPA Real-Time Library Amplification Kit (KAPA Biosystems), and purification was done with AMPure XP beads. The libraries were checked for quality using a Bioanalyzer High Sensitivity DNA chip and subjected to paired-end sequencing (100-bp read length) using HiSeq 2500.",ESC-derived NPC,,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90033,In situ Hi-C,HindIII,,"? будто сразу готовые клетки брали, но не нагуглил происхождение"
+Kiefer,GSE249430,Mus musculus,"For HiC samples, cells were fixed prior to sorting. For fixation, dissociated cells were resuspended in PBS + 1% methanol-free formaldehyde (Pierce). Cells were fixed at room temperature for 10 minutes, and then fixation was quenched by adding 1/10th volume of 1.25M glycine. Fixed cells were pelleted (500 rcf, 5 minutes, room temperature), washed once with PBS + 2% FBS, and then resuspended in sort media. All cells were passed through a 40uM cell strainer prior to sorting.", Genomic DNA contaminants were removed by Turbo DNase. Removal of Turbo DNase was performed by phenol:chloroform extraction and RNA was precipitated as described above and resuspended in RNase-free water and stored at -80°C. For in situ HiC was carried out according to Rao et al. 2014 and according to the manufacturer's instructions of the Arima HiC kit. ,Fetal neurons,,Cortex,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249430,In situ Hi-C,Arima,,
+Feng,GSE243810,Mus musculus,"Animal care and experimental procedures were approved by and performed in accordance with guidelines provided by the Institutional Animal Care and Use Committee of the National University of Singapore and complied with the Association for Assessment and Accreditation of Laboratory Animal Care guidelines for animal use. The day of identifying a vaginal plug and the day of birth were designated as embryonic day 0.5 (E0.5), and postnatal day 0 (P0), respectively. All mice used in this study were housed in groups in individually ventilated cages under a 12:12-h light/dark cycle with access to food and water ad libitum. Because there was no apparent gender bias to the observed phenotypes and pathology, female and male mice were included and randomly allocated to experimental groups according to age and genotype.
+
+Nestin-Cre (B6.Cg-Tg(Nes-cre)1Kln/J) mice (JAX stock #003771). PHF2 floxed mice were obtained from RIKEN BioResource Research Center (BRC). These mice were developed and deposited by Dr Yosuke Okuno and Dr Yuuki Imai at the Institute of Molecular and Cellular Biosciences, The University of Tokyo (20). To generate Phf2 conditional knockout mice, we mated male Nestin-Cre Tg, PHF2flox/+ mice with PHF2flox/flox females. Genotyping was performed by PCR using corresponding primers (Supplementary Table S1). All samples were collected at E13.5, P30 and P50.","HiC libraries were prepared according to the Dovetail Topolink kit protocol version 1.2 (Cantata Bio). Briefly, 1 million cells were crosslinked with disuccinimidyl glutarate and formaldehyde. Next, the nuclei were extracted and the chromatin was enzymatically fragmented. The profile of chromatin fragmentation was quality-controlled by Bioanalyzer DNA high sensitivity assay (Agilent Technologies). Following this, 3 ng of fragmented chromatin was proximity ligated on chromatin capture beads. The resulting chromatin was subjected to library preparation mix 1 and 2, then reverse crosslinked and quantified using Qubit dsDNA HS kit (Thermo Fischer). The DNA yield was split evenly into 4 reactions, and each was prepared into dual-indexed HiC library using library prep mix 3 and 4. Each library was sequenced to approximately 200 million paired-end reads on NovaSeq6000 platform (Illumina).",NSC,0,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243810,In situ Hi-C,Dovetail Topolink kit,,
+Rosa-Garrido,GSE96692,Mus musculus,,"	For each replicate, one million isolated adult cardiomyocytes were fixed in 1% formaldehyde and underwent in situ Hi-C as described (Rao et al., 2014), using MboI as the restriction enzyme. Hi-C libraries were sequenced on an Illumina HiSeq 4000 instrument. Please see Figure S1 for detailed data on read counts, cis/trans interactions, and mappability.",Cardiomyocyte,,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96692,In situ Hi-C,MboI,,
+Li,GSE133760,Mus musculus,,"	The hearts of E8.5 mouse embryo were isolated and fixed with 1% formaldehyde for 10 min at RT, then used for Hi-C.
+The Hi-C fragments were amplified with Extaq (Takara), followed by size selection with AMPure XP beads (0.48 X + 1 X).",Fetal heart tissue,,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133760,In situ Hi-C,-,,
+Zhou,GSE194087,Mus musculus,"For each biological replicate, 2M purified cardiomyocytes were fixed in PBS supplemented with 1% formaldehyde for 10 min at RT and then quenched with 125 mM glycine for 5 min at RT. Nuclei were isolated by treating with a hypotonic buffer (10 mM Tris-HCl, pH 8.0, 10 mM KCl, 1 mM MgCl2, 0.2% Igepal CA630) on ice for 10 min. Pelleted nuclei were permeabilized using 0.5% SDS and incubated for 10 min at 62 °C.","n. Pelleted nuclei were permeabilized using 0.5% SDS and incubated for 10 min at 62 °C. Chromatin was digested using the 4-base cutter restriction enzyme MboI (200 units, NEB) at 37 °C overnight. After inactivation of MboI for 20 min at 62 °C, single stranded overhangs were filled with biotinylated-14-dATP (Life Technologies) and dCTP, dGTP, and dTTP using Klenow DNA polymerase (40 units, NEB) for 90 min at 37 °C. DNA was then ligated for 4 h at 16 °C using T4 DNA ligase (2,000 units, NEB). Reverse crosslinking was performed by incubating at 55 °C with proteinase K for 30 min and then 68 °C overnight. Purified DNA was sonicated using an ultra sonicator to 300-700 bp small fragments. After size selection and purification using SPRI beads (Beckman Coulter), biotinylated DNA was isolated using Dynabeads MyOne T1 Streptavidin beads (Life Technologies).
+Sequencing libraries were prepared on magnetic beads and final PCR amplification was carried out for 6 cycles. Size distribution of bead-purified libraries was checked using a High Sensitivity D1000 ScreenTape on a Tapestation (Agilent) and quantified using Qubit (Life Technologies). Libraries were sequenced on Hiseq 4000 (100 bp PE, Illumina)",Fetal Cardiomyocyte,,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194087,In situ Hi-C,MboI,,
+Zhou,GSE194087,Mus musculus,"For each biological replicate, 2M purified cardiomyocytes were fixed in PBS supplemented with 1% formaldehyde for 10 min at RT and then quenched with 125 mM glycine for 5 min at RT. Nuclei were isolated by treating with a hypotonic buffer (10 mM Tris-HCl, pH 8.0, 10 mM KCl, 1 mM MgCl2, 0.2% Igepal CA630) on ice for 10 min. Pelleted nuclei were permeabilized using 0.5% SDS and incubated for 10 min at 62 °C.","n. Pelleted nuclei were permeabilized using 0.5% SDS and incubated for 10 min at 62 °C. Chromatin was digested using the 4-base cutter restriction enzyme MboI (200 units, NEB) at 37 °C overnight. After inactivation of MboI for 20 min at 62 °C, single stranded overhangs were filled with biotinylated-14-dATP (Life Technologies) and dCTP, dGTP, and dTTP using Klenow DNA polymerase (40 units, NEB) for 90 min at 37 °C. DNA was then ligated for 4 h at 16 °C using T4 DNA ligase (2,000 units, NEB). Reverse crosslinking was performed by incubating at 55 °C with proteinase K for 30 min and then 68 °C overnight. Purified DNA was sonicated using an ultra sonicator to 300-700 bp small fragments. After size selection and purification using SPRI beads (Beckman Coulter), biotinylated DNA was isolated using Dynabeads MyOne T1 Streptavidin beads (Life Technologies).
+Sequencing libraries were prepared on magnetic beads and final PCR amplification was carried out for 6 cycles. Size distribution of bead-purified libraries was checked using a High Sensitivity D1000 ScreenTape on a Tapestation (Agilent) and quantified using Qubit (Life Technologies). Libraries were sequenced on Hiseq 4000 (100 bp PE, Illumina)",Cardiomyocyte,,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194087,In situ Hi-C,MboI,,
